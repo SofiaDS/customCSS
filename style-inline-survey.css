@@ -240,7 +240,7 @@ span#leftEdge,span#rightEdge{
 }
 
 /*Setting Vodafone Logo*/
-#liveForm div div div .pageRepeater div[class*="ng-pristine"]:first-child{
+/* #liveForm div div div .pageRepeater div[class*="ng-pristine"]:first-child{
     padding-top: 80px;
     background-image: url('https://assets.kampyle.com/resources/clients/VF/New_VF_Icon_RGB_RED.png');
     background-repeat: no-repeat;
@@ -263,7 +263,7 @@ span#leftEdge,span#rightEdge{
     background-size: inherit;
     background-position-y: inherit;
     background-position-x: inherit;
-}
+} */
 
 /*Vodafone logo on Thank you page*/
 .logoPreview{
