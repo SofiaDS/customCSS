@@ -10,20 +10,12 @@ font-weight:400;font-style:normal}
     font-style:normal
 }
 
-
 body{
-  font-family:VodafoneRegular,Helvetica Neue,Helvetica !important;
+    font-family:VodafoneRegular,Helvetica Neue,Helvetica !important;
+	padding-top: 45px !important;
 	background-color: #fff !important;
 }
-.body .live-form-content {
-  padding-bottom: 1.5rem;
-  overflow-y: hidden;
-}
-.vf-radio-btn-flex-box{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-}
+
 .fb-form-object.ng-scope:first-child {
     padding-top: 5px !important;
 }
@@ -42,8 +34,6 @@ body{
 /*To set Submit button as red(E60000)*/
 .submit-btn{
     background-color: #E60000 !important;
-    background-color: #E60000 !important;
-    width: 5rem !important;
 }
 
 /* Below code can swap Submit and Cancel Button Not in use right now*/
@@ -177,7 +167,7 @@ div.neb-rating.numbersSquare, .numbersCircle{
     width: 100% !important;
 }
 .neb-rating.numbersSquare .neb-rating-value,.neb-rating.numbersCircle .neb-rating-value{
-    width: 100% !important;
+    width: 8% !important;
 }
 neb-rating .neb-rating .neb-rating-value label.rating-label{
     width: 100% !important;
@@ -241,9 +231,7 @@ neb-rating .neb-rating .neb-rating-value label.rating-label{
 
 /*Will take LTR edge labels Anchor to top*/
 .ng-scope div div neb-rating .neb-rating .edge-labels{
-  margin-top: -55px;
-  padding-left: 5px;
-  padding-right: 5px;
+    margin-top: -50px;
 }
 
 /*Changing font size for Anchor text*/
@@ -252,15 +240,15 @@ span#leftEdge,span#rightEdge{
 }
 
 /*Setting Vodafone Logo*/
-/* #liveForm div div div .pageRepeater div[class*="ng-pristine"]:first-child{
+#liveForm div div div .pageRepeater div[class*="ng-pristine"]:first-child{
     padding-top: 80px;
     background-image: url('https://assets.kampyle.com/resources/clients/VF/New_VF_Icon_RGB_RED.png');
     background-repeat: no-repeat;
     background-size: 60px;
     background-position-y: 15px;
     background-position-x: 20px;
-} */
-/* #liveForm .redBackground div div .pageRepeater div[class*="ng-pristine"]:first-child{
+}
+#liveForm .redBackground div div .pageRepeater div[class*="ng-pristine"]:first-child{
     padding-top: 80px;
     background-image: url('https://nebula-cdn.kampyle.com/we/66119/resources/image/1518798536423_VF-header-redbackground.png');
     background-repeat: no-repeat;
@@ -275,7 +263,7 @@ span#leftEdge,span#rightEdge{
     background-size: inherit;
     background-position-y: inherit;
     background-position-x: inherit;
-} */
+}
 
 /*Vodafone logo on Thank you page*/
 .logoPreview{
