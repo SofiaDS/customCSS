@@ -58,12 +58,9 @@ form.ng-pristine.ng-valid > span {
     display: flex;
     justify-content: space-between;
 }
-/* size of scores  */
-span.neb-rating-value.ng-scope {
-    width: 15% !important;
-}
+/*size of scores */
 .neb-rating.numbersSquare .neb-rating-value, .neb-rating.numbersCircle .neb-rating-value {
-    width: 15% !important;
+    width: 13% !important;
 }
 .neb-rating-value.ng-scope {
     margin-top: 0.5% !important;
