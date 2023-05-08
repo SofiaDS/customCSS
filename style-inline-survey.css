@@ -39,7 +39,11 @@ body{
 div#thankYouPageText > div > p {
     font-family:VodafoneRegular,Helvetica Neue,Helvetica !important;
 }
-
+/*Vertical position of typ icon + text*/
+.kpl-thankYouHolder.thankYouPagePreview.ng-scope.no-powered-by{
+    display: flex;
+    justify-content: space-around;
+}
 /* Below code can swap Submit and Cancel Button Not in use right now*/
 
 /*Changes the position of Submit Button
