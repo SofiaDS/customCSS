@@ -65,7 +65,7 @@ font-weight:400;font-style:normal}
     src: url(/_next/static/media/VodafoneExB-Regular.7362f3f2.woff2) format("woff2")
 }
 body{
-    font-family:VodafoneRegular,Helvetica Neue,Helvetica !important;
+    font-family:Vodafone Rg,Helvetica Neue,Helvetica !important;
 	/*padding-top: 45px !important;*/
 	background-color: #fff !important;
 }
