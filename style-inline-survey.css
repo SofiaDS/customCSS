@@ -247,7 +247,7 @@ neb-rating .neb-rating .neb-rating-value label.rating-label{
 
 /*Will take LTR edge labels Anchor to top*/
 .ng-scope div div neb-rating .neb-rating .edge-labels{
-    margin-top: -50px;
+    margin-top: -55px;
 }
 
 /*Changing font size for Anchor text*/
