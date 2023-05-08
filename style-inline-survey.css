@@ -41,8 +41,12 @@ div#thankYouPageText > div > p {
 }
 /*Vertical position of typ icon + text*/
 .kpl-thankYouHolder.thankYouPagePreview.ng-scope.no-powered-by{
-    display: flex;
-    justify-content: space-around;
+    display: flex !important;
+    justify-content: space-around !important;
+}
+/*Icon size in typ*/
+img.ng-scope {
+    width: 50px !important;
 }
 /* Below code can swap Submit and Cancel Button Not in use right now*/
 
