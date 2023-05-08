@@ -37,7 +37,8 @@ body{
 }
 /*Changes font of thank you page message*/
 div#thankYouPageText > div > p {
-    font-family:VodafoneRegular,Helvetica Neue,Helvetica !important;
+    font-family: VodafoneLight !important;
+    font-weight: lighter;
 }
 /*Vertical position of typ icon + text*/
 .kpl-thankYouHolder.thankYouPagePreview.ng-scope.no-powered-by{
