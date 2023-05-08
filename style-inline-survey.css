@@ -200,9 +200,9 @@ span.neb-rating-value.ng-scope {
 div.neb-rating.numbersSquare, .numbersCircle{
     width: 100% !important;
 }
-.neb-rating.numbersSquare .neb-rating-value,.neb-rating.numbersCircle .neb-rating-value{
+/* .neb-rating.numbersSquare .neb-rating-value,.neb-rating.numbersCircle .neb-rating-value{
     width: 8% !important;
-}
+} */
 neb-rating .neb-rating .neb-rating-value label.rating-label{
     width: 100% !important;
 }
