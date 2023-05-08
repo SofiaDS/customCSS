@@ -61,14 +61,10 @@ form.ng-pristine.ng-valid > span {
 /*size of scores */
 .neb-rating.numbersSquare .neb-rating-value, .neb-rating.numbersCircle .neb-rating-value {
     width: 13% !important;
-}
-/* 
-.neb-rating-value.ng-scope {
-    margin-top: 0.5% !important;
-    margin-bottom: 0.5% !important;
-    padding-left: 0.5%;
 } 
-*/
+.neb-rating-value.ng-scope {
+    margin: 0;
+}
 /* Below code can swap Submit and Cancel Button Not in use right now*/
 
 /*Changes the position of Submit Button
