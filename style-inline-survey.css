@@ -41,10 +41,10 @@ div#thankYouPageText > div > p {
     
 }
 /*Vertical position of typ icon + text*/
-.kpl-thankYouHolder.thankYouPagePreview.ng-scope.no-powered-by{
+/* .kpl-thankYouHolder.thankYouPagePreview.ng-scope.no-powered-by{
     display: flex !important;
     justify-content: space-around !important;
-}
+} */
 /*Icon size in typ*/
 img.ng-scope {
     width: 50px !important;
@@ -63,7 +63,7 @@ form.ng-pristine.ng-valid > span {
     width: 13% !important;
 } 
 .neb-rating-value.ng-scope {
-    margin: 0 !important;
+    margin: 0.5%;
 }
 /* Below code can swap Submit and Cancel Button Not in use right now*/
 
