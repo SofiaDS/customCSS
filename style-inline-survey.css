@@ -35,7 +35,10 @@ body{
 .submit-btn{
     background-color: #E60000 !important;
 }
-
+/*Changin font of thank you page message*/
+#thankYouPageText{
+    font-family:VodafoneRegular,Helvetica Neue,Helvetica !important;
+}
 /* Below code can swap Submit and Cancel Button Not in use right now*/
 
 /*Changes the position of Submit Button
