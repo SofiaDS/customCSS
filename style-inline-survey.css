@@ -20,6 +20,12 @@ body{
     padding-top: 5px !important;
 }
 
+/*flex of typ elements*/
+#liveForm .kpl_builder .kpl-thank-you {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
 /*Code to make most part of the Form Right To Left*/
 .rightToLeft {
     direction: rtl !important;
