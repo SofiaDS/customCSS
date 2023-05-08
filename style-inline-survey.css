@@ -65,6 +65,11 @@ span.neb-rating-value.ng-scope {
 .neb-rating.numbersSquare .neb-rating-value, .neb-rating.numbersCircle .neb-rating-value {
     width: 15% !important;
 }
+.neb-rating-value.ng-scope {
+    margin-top: 0.5% !important;
+    margin-bottom: 0.5% !important;
+    /* padding-left: 0.5%; */
+}
 /* Below code can swap Submit and Cancel Button Not in use right now*/
 
 /*Changes the position of Submit Button
