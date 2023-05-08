@@ -38,7 +38,7 @@ body{
 /*Changes font of thank you page message*/
 div#thankYouPageText > div > p {
     font-family: VodafoneLight !important;
-    font-weight: lighter;
+    
 }
 /*Vertical position of typ icon + text*/
 .kpl-thankYouHolder.thankYouPagePreview.ng-scope.no-powered-by{
@@ -52,6 +52,11 @@ img.ng-scope {
 /*position of submit*/
 neb-form-footer.panel-footer {
     position: relative !important;
+}
+/*position of rating scores*/
+form.ng-pristine.ng-valid > span {
+    display: flex;
+    justify-content: space-between;
 }
 /* Below code can swap Submit and Cancel Button Not in use right now*/
 
