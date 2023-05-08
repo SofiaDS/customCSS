@@ -58,6 +58,10 @@ form.ng-pristine.ng-valid > span {
     display: flex;
     justify-content: space-between;
 }
+/* size of scores  */
+span.neb-rating-value.ng-scope {
+    width: 15% !important;
+}
 /* Below code can swap Submit and Cancel Button Not in use right now*/
 
 /*Changes the position of Submit Button
