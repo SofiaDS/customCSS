@@ -29,6 +29,10 @@ body{
 .modal-live-form.ng-scope {
     height: fit-content !important;
 }
+/*no padding for submit botton*/
+.kpl_builder .panel-footer .neb-form-footer-buttons {
+    padding:0 !important;
+}
 /*#liveForm .kpl_builder .kpl-thank-you {
     width: 100%;
     display: flex;
