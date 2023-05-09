@@ -42,6 +42,9 @@ body{
 .col-sm-12.neb-form-footer-buttons {
     padding: 8px !important;
 }
+#liveForm .kpl_builder .panel-footer .panel-footer-web div.row {
+    margin-right: 10px;
+}
 /*#liveForm .kpl_builder .kpl-thank-you {
     width: 100%;
     display: flex;
