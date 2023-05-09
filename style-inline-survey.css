@@ -84,14 +84,14 @@ neb-form-footer.panel-footer {
     position: relative !important;
 }
 /*position of rating scores*/
-form.ng-pristine.ng-valid > span {
+form > span {
     display: flex;
     justify-content: space-between;
 }
-ng-valid ng-dirty ng-valid-parse > span{
+/* ng-valid ng-dirty ng-valid-parse > span{
     display: flex;
     justify-content: space-between;
-}
+} */
 /*size of scores */
 .neb-rating.numbersSquare .neb-rating-value, .neb-rating.numbersCircle .neb-rating-value {
     width: 13% !important;
