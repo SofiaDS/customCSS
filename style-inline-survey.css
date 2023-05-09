@@ -33,6 +33,12 @@ body{
 .kpl_builder .panel-footer .neb-form-footer-buttons {
     padding:0 !important;
 }
+.kpl_builder .panel-footer .neb-form-footer-buttons .form-group {
+    padding: 0 !important;
+}
+.form-group{
+    padding: o !important;
+}
 /*#liveForm .kpl_builder .kpl-thank-you {
     width: 100%;
     display: flex;
