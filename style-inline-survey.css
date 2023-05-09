@@ -39,6 +39,9 @@ body{
 .form-group{
     padding: o !important;
 }
+.col-sm-12.neb-form-footer-buttons {
+    padding: 8px !important;
+}
 /*#liveForm .kpl_builder .kpl-thank-you {
     width: 100%;
     display: flex;
