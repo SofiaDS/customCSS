@@ -25,6 +25,10 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
+/*set height of box*/
+.modal-live-form.ng-scope {
+    height: fit-content !important;
+}
 /*#liveForm .kpl_builder .kpl-thank-you {
     width: 100%;
     display: flex;
