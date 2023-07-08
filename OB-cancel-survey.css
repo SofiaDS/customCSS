@@ -30,7 +30,7 @@
 
 body{
     font-family:VodafoneRegular,Helvetica Neue,Helvetica !important;
-    background-color: #F2F2F2;
+    background-color: #F2F2F2 !important;
 }
 
 /*Code to make most part of the Form Right To Left
