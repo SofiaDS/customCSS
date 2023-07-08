@@ -32,7 +32,7 @@ body{
     font-family:VodafoneRegular,Helvetica Neue,Helvetica !important;
 }
 
-/*Code to make most part of the Form Right To Left*/
+/*Code to make most part of the Form Right To Left
 .rightToLeft {
     direction: rtl !important;
     text-align: right !important;
@@ -42,23 +42,24 @@ body{
 .rightToLeft div div div .footer-right-buttons{
     float: left !important;;
 }
-
+*/
 /*To set Submit button as red(E60000)*/
 .submit-btn{
     background-color: #E60000 !important;
 }
 
-/*This code will Move Screen Capture button to right side.*/
+/*
+This code will Move Screen Capture button to right side.
 .rightToLeft div div div .screen-capture{
     float: right !important;
 }
 
-/*This code is to make Medallia Logo Centered*/
+This code is to make Medallia Logo Centered
 #liveForm .rightToLeft div .kpl-form-footer{
     text-align: left !important;
     padding-left: 15px !important;
 }
-
+*/
 /*Changes Question Labels Right to Left*/
 #liveForm .rightToLeft .pageRepeater .kplFormHolder .commonLabel {
     text-align: right !important;
@@ -248,7 +249,7 @@ span#leftEdge,span#rightEdge{
     font-size: 1.1em !important;
 }
 
-/*Setting Vodafone Logo*/
+/*Setting Vodafone Logo
 #liveForm div div div .pageRepeater div[class*="ng-pristine"]:first-child{
     padding-top: 80px;
     background-image: url('https://assets.kampyle.com/resources/clients/VF/New_VF_Icon_RGB_RED.png');
@@ -289,7 +290,7 @@ span#leftEdge,span#rightEdge{
     background-size: 80px;
     background-position: center;
 }
-
+*/
 /* To reduce the space below the text module */
 .pageRepeater .ng-scope:nth-last-child(2) > .neb-label{
     margin-bottom: -20px !important;
