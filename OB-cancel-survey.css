@@ -30,7 +30,11 @@
 
 body{
     font-family:VodafoneRegular,Helvetica Neue,Helvetica !important;
+    padding:20px !important;
+}
+textarea{
     background-color: #F2F2F2 !important;
+    border: 1px solid #25282B !important;
 }
 
 /*Code to make most part of the Form Right To Left
