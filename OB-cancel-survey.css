@@ -149,8 +149,8 @@ Vodafone color for Checkboxes
     background-color: #E60000 !important;
 }
 */
-
-/*Removes background Image from NPS Scale*/
+/* 
+Removes background Image from NPS Scale
 .neb-rating.numbersSquare label{
     background-image: none !important;
 }
@@ -158,7 +158,7 @@ Vodafone color for Checkboxes
     background-image: none !important;
 }
 
-/*Displays Numbers without Background image*/
+Displays Numbers without Background image
 .neb-website-grading1to7 .numbersSquare label .native-display-value-in-rating,
 .neb-website-grading0to10 .numbersSquare label .native-display-value-in-rating {
     display: block !important;
@@ -172,7 +172,7 @@ Vodafone color for Checkboxes
     display: inline !important;
 }
 
-/*Make LTR Scales Responsive*/
+Make LTR Scales Responsive
 div.neb-rating.numbersSquare, .numbersCircle{
     width: 100% !important;
 }
@@ -183,7 +183,7 @@ neb-rating .neb-rating .neb-rating-value label.rating-label{
     width: 100% !important;
 }
 
-/*Show Background Color for NPS Questions*/
+Show Background Color for NPS Questions
 .numbersSquare form span span[class*="neb-rating-value"] label{
     background-color: #efefef !important;
     text-align: center;
@@ -193,7 +193,7 @@ neb-rating .neb-rating .neb-rating-value label.rating-label{
     text-align: center;
 }
 
-/*Centering Text in NPS Scales*/
+Centering Text in NPS Scales
 .ng-scope #liveForm div div .pageRepeater div div div[class*="kplFormHolder"] div label[class*="rating-label"]{
     text-align: center !important;
 }
@@ -203,7 +203,7 @@ neb-rating .neb-rating .neb-rating-value label.rating-label{
     text-align:center !important;
 }
 
-/*Setting Hover Color for NPS Scale*/
+Setting Hover Color for NPS Scale
 .numbersSquare form span span[class*="neb-rating-value"] label.hover{
     background-color: #E60000 !important;
     color: #ffffff !important;
@@ -215,7 +215,7 @@ neb-rating .neb-rating .neb-rating-value label.rating-label{
     font-weight: bold !important;
 }
 
-/*Setting Selected Color for NPS*/
+Setting Selected Color for NPS
 .numbersSquare form span span[class*="neb-rating-value"] label.selected{
     background-color: #E60000 !important;
     color: #ffffff !important;
@@ -227,7 +227,7 @@ neb-rating .neb-rating .neb-rating-value label.rating-label{
     font-weight: bold !important;
 }
 
-/*Setting backward selection Color*/
+Setting backward selection Color
 .numbersSquare form span span[class*="neb-rating-value"] label.on{
     background-color: #E60000 !important;
     color: #ffffff !important;
@@ -239,16 +239,16 @@ neb-rating .neb-rating .neb-rating-value label.rating-label{
     font-weight: bold !important;
 }
 
-/*Will take LTR edge labels Anchor to top*/
+Will take LTR edge labels Anchor to top
 .ng-scope div div neb-rating .neb-rating .edge-labels{
     margin-top: -60px;
     top:0px;
 }
 
-/*Changing font size for Anchor text*/
+Changing font size for Anchor text
 span#leftEdge,span#rightEdge{
     font-size: 1.1em !important;
-}
+} */
 
 /*Setting Vodafone Logo
 #liveForm div div div .pageRepeater div[class*="ng-pristine"]:first-child{
