@@ -140,14 +140,15 @@ This code is to make Medallia Logo Centered
 .neb-rating.emoticons .neb-rating-value.ng-scope {
   margin:0 !important;
 }
-/*Vodafone color for Radio Buttons*/
+/* Vodafone color for Radio Buttons
 .neb-content md-radio-group div.radio md-radio-button ._md-on{
     background-color: #E60000 !important;
 }
-/*Vodafone color for Checkboxes*/
+Vodafone color for Checkboxes
 .neb-content .md-checked ._md-icon{
     background-color: #E60000 !important;
 }
+*/
 
 /*Removes background Image from NPS Scale*/
 .neb-rating.numbersSquare label{
