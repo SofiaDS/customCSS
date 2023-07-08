@@ -43,11 +43,10 @@ body{
     float: left !important;;
 }
 */
-/*To set Submit button as red(E60000)*/
+To set Submit button as red(E60000)*/
 .submit-btn{
     background-color: #E60000 !important;
 }
-
 /*
 This code will Move Screen Capture button to right side.
 .rightToLeft div div div .screen-capture{
