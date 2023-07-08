@@ -43,8 +43,8 @@ body{
     float: left !important;;
 }
 */
-/*To set Submit button as red(E60000)*/
-.submit-btn{
+/*To set Submit button as red(E60000)
+ .submit-btn{
     background-color: #E60000 !important;
 }
 /*
