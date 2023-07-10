@@ -22,7 +22,7 @@
 }
 */
 @font-face{
-    font-family:VodafoneRegular;
+    font-family:VodafoneRegular !important;
     src:url('vodafone-regular.eot');
     src:url('vodafone-regular.eot?#iefix') format('embedded-opentype');
     font-style:normal;
@@ -30,7 +30,10 @@
 
 body{
     font-family:VodafoneRegular,Helvetica Neue,Helvetica !important;
-   
+}
+/*form container*/
+#liveForm > div{
+padding:10px;
 }
 textarea{
     background-color: #F2F2F2 !important;
