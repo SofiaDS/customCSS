@@ -1,4 +1,3 @@
-/*
 @font-face{
   font-family:VodafoneLight;
   src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonelt_ttf.ttf) format('truetype')
@@ -20,7 +19,7 @@
       font-weight:400;
       font-style:normal
 }
-*/
+
 @font-face{
     font-family:VodafoneRegular !important;
     src:url('vodafone-regular.eot');
@@ -55,18 +54,7 @@ textarea{
  .submit-btn{
     background-color: #E60000 !important;
 }
-/*
-This code will Move Screen Capture button to right side.
-.rightToLeft div div div .screen-capture{
-    float: right !important;
-}
 
-This code is to make Medallia Logo Centered
-#liveForm .rightToLeft div .kpl-form-footer{
-    text-align: left !important;
-    padding-left: 15px !important;
-}
-*/
 /*Changes Question Labels Right to Left*/
 #liveForm .rightToLeft .pageRepeater .kplFormHolder .commonLabel {
     text-align: right !important;
@@ -147,158 +135,7 @@ This code is to make Medallia Logo Centered
 .neb-rating.emoticons .neb-rating-value.ng-scope {
   margin:0 !important;
 }
-/* Vodafone color for Radio Buttons
-.neb-content md-radio-group div.radio md-radio-button ._md-on{
-    background-color: #E60000 !important;
-}
-Vodafone color for Checkboxes
-.neb-content .md-checked ._md-icon{
-    background-color: #E60000 !important;
-}
-*/
-/* 
-Removes background Image from NPS Scale
-.neb-rating.numbersSquare label{
-    background-image: none !important;
-}
-.neb-rating.numbersCircle label{
-    background-image: none !important;
-}
 
-Displays Numbers without Background image
-.neb-website-grading1to7 .numbersSquare label .native-display-value-in-rating,
-.neb-website-grading0to10 .numbersSquare label .native-display-value-in-rating {
-    display: block !important;
-    padding-top: 0px !important;
-}
-.neb-website-nps .numbersSquare label .native-display-value-in-rating {
-    display: block !important;
-    padding-top: 5px !important;
-}
-.numbersCircle label .native-display-value-in-rating{
-    display: inline !important;
-}
-
-Make LTR Scales Responsive
-div.neb-rating.numbersSquare, .numbersCircle{
-    width: 100% !important;
-}
-.neb-rating.numbersSquare .neb-rating-value,.neb-rating.numbersCircle .neb-rating-value{
-    width: 8% !important;
-}
-neb-rating .neb-rating .neb-rating-value label.rating-label{
-    width: 100% !important;
-}
-
-Show Background Color for NPS Questions
-.numbersSquare form span span[class*="neb-rating-value"] label{
-    background-color: #efefef !important;
-    text-align: center;
-}
-.numbersCircle form span span[class*="neb-rating-value"] label{
-    background-color: #efefef !important;
-    text-align: center;
-}
-
-Centering Text in NPS Scales
-.ng-scope #liveForm div div .pageRepeater div div div[class*="kplFormHolder"] div label[class*="rating-label"]{
-    text-align: center !important;
-}
-
-.kplFormHolder div.neb-website-nps .numbersCircle label, .kplFormHolder div.neb-website-grading0to10 .numbersSquare label{
-    padding-top: 5px !important;
-    text-align:center !important;
-}
-
-Setting Hover Color for NPS Scale
-.numbersSquare form span span[class*="neb-rating-value"] label.hover{
-    background-color: #E60000 !important;
-    color: #ffffff !important;
-    font-weight: bold !important;
-}
-.numbersCircle form span span[class*="neb-rating-value"] label.hover{
-    background-color: #E60000 !important;
-    color: #ffffff !important;
-    font-weight: bold !important;
-}
-
-Setting Selected Color for NPS
-.numbersSquare form span span[class*="neb-rating-value"] label.selected{
-    background-color: #E60000 !important;
-    color: #ffffff !important;
-    font-weight: bold !important;
-}
-.numbersCircle form span span[class*="neb-rating-value"] label.selected{
-    background-color: #E60000 !important;
-    color: #ffffff !important;
-    font-weight: bold !important;
-}
-
-Setting backward selection Color
-.numbersSquare form span span[class*="neb-rating-value"] label.on{
-    background-color: #E60000 !important;
-    color: #ffffff !important;
-    font-weight: bold !important;
-}
-.numbersCircle form span span[class*="neb-rating-value"] label.on{
-    background-color: #E60000 !important;
-    color: #ffffff !important;
-    font-weight: bold !important;
-}
-
-Will take LTR edge labels Anchor to top
-.ng-scope div div neb-rating .neb-rating .edge-labels{
-    margin-top: -60px;
-    top:0px;
-}
-
-Changing font size for Anchor text
-span#leftEdge,span#rightEdge{
-    font-size: 1.1em !important;
-} */
-
-/*Setting Vodafone Logo
-#liveForm div div div .pageRepeater div[class*="ng-pristine"]:first-child{
-    padding-top: 80px;
-    background-image: url('https://assets.kampyle.com/resources/clients/VF/New_VF_Icon_RGB_RED.png');
-    background-repeat: no-repeat;
-    background-size: 70px;
-    background-position-y: 15px;
-    background-position-x: 20px;
-}
-#liveForm .redBackground div div .pageRepeater div[class*="ng-pristine"]:first-child{
-    padding-top: 80px;
-    background-image: url('https://nebula-cdn.kampyle.com/we/66119/resources/image/1518798536423_VF-header-redbackground.png');
-    background-repeat: no-repeat;
-    background-size: 130%;
-    background-position-y: 0px;
-    background-position-x: 0px;
-}
-#liveForm .noLogo div div .pageRepeater div[class*="ng-pristine"]:first-child{
-    padding-top: inherit;
-    background-image: none;
-    background-repeat: no-repeat;
-    background-size: inherit;
-    background-position-y: inherit;
-    background-position-x: inherit;
-}
-
-/*Vodafone logo on Thank you page*/
-.logoPreview{
-    padding-top: 100px;
-    background-image: url('https://assets.kampyle.com/resources/clients/VF/New_VF_Icon_RGB_RED.png');
-    background-repeat: no-repeat;
-    background-size: 80px;
-    background-position: center;
-}
-/*For Invitation Page*/
-.imageContainer{
-    background-image: url('https://assets.kampyle.com/resources/clients/VF/New_VF_Icon_RGB_RED.png');
-    background-repeat: no-repeat;
-    background-size: 80px;
-    background-position: center;
-}
-*/
 /* To reduce the space below the text module */
 .pageRepeater .ng-scope:nth-last-child(2) > .neb-label{
     margin-bottom: -20px !important;
