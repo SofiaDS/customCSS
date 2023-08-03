@@ -178,7 +178,11 @@ div.neb-rating.numbersSquare, .numbersCircle{
 neb-rating .neb-rating .neb-rating-value label.rating-label{
     width: 100% !important;
 }
-
+/*rating scale flex*/
+form > span {
+    display: flex;
+    justify-content: space-between;
+}
 /*Show Background Color for NPS Questions*/
 .numbersSquare form span span[class*="neb-rating-value"] label{
     background-color: #efefef !important;
