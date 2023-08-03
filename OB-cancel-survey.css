@@ -39,7 +39,7 @@ textarea{
     border: 1px solid #25282B !important;
 }
 
-/*Code to make most part of the Form Right To Left
+/*Code to make most part of the Form Right To Left*/
 .rightToLeft {
     direction: rtl !important;
     text-align: right !important;
@@ -49,8 +49,8 @@ textarea{
 .rightToLeft div div div .footer-right-buttons{
     float: left !important;;
 }
-*/
-/*To set Submit button as red(E60000)
+
+/*To set Submit button as red(E60000)*/
  .submit-btn{
     background-color: #E60000 !important;
 }
