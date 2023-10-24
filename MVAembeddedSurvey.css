@@ -36,3 +36,12 @@ body{
 .ng-pristine.ng-untouched.ng-valid.ng-scope.ng-isolate-scope.ng-not-empty{
   padding: 65px 88px 50px 88px;
 }
+
+/*reduce margin bottom between elements*/
+#liveForm .kpl_builder .pageRepeater .neb-web-component, #liveForm
+.kpl_builder .kpl-thankYouHolder .neb-web-component {
+   margin-bottom: 0px !important;
+}
+p{
+  margin:0px !important;
+}
