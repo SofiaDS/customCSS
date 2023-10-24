@@ -48,7 +48,7 @@ p{
 
 /*title 1*/
 #liveForm > div > div.live-form-content > div.modal-live-form.ng-scope > div > div > div:nth-child(1) > div > div > p > p{
-    font-family: VodafoneBold;
+    font-family: VodafoneRegular;
     font-size: 28px;
     font-weight: 700;
     line-height: 36px;
@@ -57,7 +57,7 @@ p{
 }
 /*title 2*/
 #liveForm > div > div.live-form-content > div.modal-live-form.ng-scope > div > div > div:nth-child(2) > div > div > p > p{
-  font-family: Vodafone;
+  font-family: VodafoneRegular;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -67,10 +67,12 @@ p{
 }
 /*title 3*/
 #liveForm > div > div.live-form-content > div.modal-live-form.ng-scope > div > div > div:nth-child(3) > div > div > p > p{
-  font-family: Vodafone;
+  font-family: VodafoneRegular;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
+  color: #25282B;
+
 }
