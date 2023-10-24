@@ -30,5 +30,9 @@
 body{
   font-family:VodafoneRegular,Helvetica Neue,Helvetica !important;
   background-color:black; 
-  padding:65px 88px 50px 88px;
+}
+
+/*internal padding survey container*/
+.ng-pristine ng-untouched ng-valid ng-scope ng-isolate-scope ng-not-empty{
+  padding: 65px 88px 50px 88px;
 }
