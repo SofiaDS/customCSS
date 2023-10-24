@@ -36,3 +36,6 @@ body{
 .ng-pristine ng-untouched ng-valid ng-scope ng-isolate-scope ng-not-empty{
   padding: 65px 88px 50px 88px;
 }
+#liveForm > div > div.live-form-content > div.modal-live-form.ng-scope > div > div{
+  padding: 65px 88px 50px 88px;
+}
