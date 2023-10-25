@@ -39,7 +39,10 @@ body{
 .fa.fa-asterisk {
     display: none;
 }
-/*X close button
-.neb-component.neb-web-component.neb-label.kplFormHolder.mvaTitle1::before {
-    content: "X";
-}*/
+/*Make LTR Scales Responsive*/
+div.neb-rating.numbersSquare, .numbersCircle{
+    width: 100% !important;
+}
+.neb-rating.numbersSquare .neb-rating-value,.neb-rating.numbersCircle .neb-rating-value{
+    width: 8% !important;
+}
