@@ -26,7 +26,7 @@
   src:url('vodafone-regular.eot?#iefix') format('embedded-opentype');
   font-style:normal;
 }
-
+/*====== DESKTOP ======*/
 body{
   font-family:VodafoneRegular,Helvetica Neue,Helvetica !important;
   background-color:black; 
@@ -81,3 +81,33 @@ p{
   text-align: left;
   color: #25282B;
 }
+/*CES rating scale parent*/
+.ng-pristine.ng-valid{
+  width: 621px;
+  height: auto;
+}
+/*CES rating scale flex container*/
+#wrapper_e911-b2de-ee2f-f84c-1f47-75ed-9126-169b > div > neb-rating > div > form > span{
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: center;
+  gap: 10px;
+}
+/*rating scale single elements style*/
+.neb-rating-html-implementation neb-rating .neb-rating.numbers
+label.rating-label,
+ .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle
+label.rating-label,
+  .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare
+.neb-rating-value label.rating-label {
+  height: 32px !important; /* adjust height but add !important to activate it or this setting is ignored */
+  width: 82px !important; /* adjust width but add !important to activate it or this setting is ignored */ 
+  background: #E60000 !important; /* background color*/
+  color: #FFFFFF !important; /* text color unselected */
+  font-weight: 400;
+  Radius: 6px;
+  padding: 4px 16px 4px 16px;
+/*====== TABLET ======*/
+
+/*====== MOBILE ======*/
