@@ -90,6 +90,19 @@ form > span {
     display: flex;
     justify-content: space-between;
 }
+/* 7 point scale settings */
+.neb-website-grading1to7 .neb-rating.numbersSquare .neb-rating-value {
+  width: 12.5% !important;
+}
+/* Edge-Labels */
+.neb-website-grading1to7 .edge-labels{
+    width: 98%;
+}
+/*Displays Numbers without Background image*/
+.neb-website-grading1to7 .numbersSquare label .native-display-value-in-rating{
+    display: block !important;
+    padding-top: 5px !important;
+}
     /*====== TABLET ======*/
     /*====== MOBILE ======*/
      
