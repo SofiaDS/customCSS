@@ -49,6 +49,6 @@ div.neb-rating.numbersSquare, .numbersCircle{
 /*flex ratijng scale*/
 neb-rating .neb-rating span {
     outline: none;
-    display: flex;
-    justify-content: space-between;
+    display: flex!important;
+    justify-content: space-between !important;
 }
