@@ -67,6 +67,10 @@
      text-align: left;
      color: #25282B;
 }
+/*To remove the asterisk*/
+.fa.fa-asterisk {
+    display: none;
+}
 /*CES rating scale parent*/
  .ng-pristine.ng-valid{
      width: 621px;
@@ -79,71 +83,6 @@
      align-content: stretch;
      align-items: center;
      gap: 10px;
-}
-/*rating scale single elements style default state*/
- .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label, .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label, .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label {
-     height: 32px !important;
-    /* adjust height but add !important to activate it or this setting is ignored */
-     width: 82px !important;
-    /* adjust width but add !important to activate it or this setting is ignored */
-     background-color: transparent !important;
-    /* background color*/
-     color: #262626 !important;
-    /* text color unselected */
-     font-weight: 400;
-     font-size: 18px;
-     border-radius: 100%;
-     line-height:24px;
- }
-/*rating scale single elements style on button state*/
-.neb-rating-html-implementation neb-rating .neb-rating.numbers
-label.rating-label.on, .neb-rating-implementation neb-rating
-.neb-rating.numbersCircle label.rating-label.on,
-.neb-rating-html-implementation neb-rating .neb-rating.numbersSquare
-.neb-rating-value label.rating-label.on {
-  background: red;
-  color: purple !important; 
-}
-/*rating scale single elements style on hoover state*/
-.neb-rating-html-implementation neb-rating .neb-rating.numbers
-label.rating-label.hover, .neb-rating-implementation neb-rating
-.neb-rating.numbersCircle label.rating-label.hover,
-.neb-rating-html-implementation neb-rating .neb-rating.numbersSquare
-.neb-rating-value label.rating-label.hover {
-  background: yelkow;
-  color: green !important; 
-}
-/*borders and background colors of selected circular buttons in rating scale*/
-.neb-rating.numbersCircle label.rating-label.selected,
-.neb-rating-html-implementation neb-rating .neb-rating.numbersSquare
-.neb-rating-value label.rating-label {
-    background: green; 
-    color: orange !important; 
-    background: green;
-    background: radial-gradient(ellipse at center, #5985F7 60%, #4769C5 62%);
-    background: -webkit-radial-gradient(center, ellipse cover, #5985F7 60%, #4769C5 62%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$core-color', endColorstr=$border-color', GradientType=1); 
-}
-
-/*border and background colors of selected square buttons in a rating scale*/
-/* set color for ON */
-.neb-rating-html-implementation neb-rating .neb-rating.numbersSquare
-.neb-rating-value label.rating-label.on {
-    background: grey; 
-}
-/* set color for hover */
-   .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare
-.neb-rating-value label.rating-label.hover {
-    background: #2b4aa0; 
-}
-/* set color of selected(accumulative) or during selection(singleselect) */
-/* of each border (bottom,left, top, right) and very last attribute is background color */
-.neb-rating-html-implementation neb-rating .neb-rating.numbersSquare
-.neb-rating-value label,rating-label.selected {
-    /*background: linear-gradient(0deg, ##2B4AA0 6%, transparent 0%), linear-gradient(90deg, #2B4AA0 6% transparent 0%), linear-gradient(180deg, #2B4AA0 6%, transparent 0%), linear-gradient(270deg, #2B4AA0 6%, transparent 0%), #3D64CC;
-    background: -webkit-linear-gradient(90deg, ##2B4AA0 6%, transparent 0%), linear-gradient(90deg, #2B4AA0 6% transparent 0%), linear-gradient(180deg, #2B4AA0 6%, transparent 0%), linear-gradient(270deg, #2B4AA0 6%, transparent 0%), #3D64CC; 
-*/
-     background:orange;
 }
 
     /*====== TABLET ======*/
