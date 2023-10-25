@@ -450,9 +450,10 @@ span#leftEdge,span#rightEdge{
 }
 
 /* Fix for mobile devices where the content overflows the viewport because of inline styles set to fixed width */
-#liveForm .kpl_builder.dig-embedded-live {
+/*#liveForm .kpl_builder.dig-embedded-live {
   max-width:100%;
-}
+}*/
+
 #liveForm .kpl_builder {
     width: 100% !important;
     max-width: 450px;
