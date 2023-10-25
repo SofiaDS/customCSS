@@ -280,7 +280,15 @@ For Invitation Page
 .pageRepeater .ng-scope:nth-last-child(2) > .neb-label{
     margin-bottom: -20px !important;
 }
-
+/*Style title 1*/
+.mvaTitle1{
+  font-family: VodafoneRegular;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+}
 /*To remove the asterisk*/
 .fa.fa-asterisk {
     display: none;
