@@ -1,26 +1,3 @@
-/*
-@font-face{
-  font-family:VodafoneLight;
-  src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonelt_ttf.ttf) format('truetype')
-}
-@font-face{
-  font-family:VodafoneBold;
-  src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_eot.eot);
-  src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_eot.eot?#iefix) format('embedded-opentype'),
-      url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_ttf.ttf) format('truetype');
-      font-weight:400;
-      font-style:normal
-}
-@font-face{
-  font-family:VodafoneRgBold;
-  src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_eot.eot);
-  src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_eot.eot?#iefix) format('embedded-opentype'),
-      url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_ttf.ttf)format('truetype'),
-      url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_svg.svg) format('svg');
-      font-weight:400;
-      font-style:normal
-}
-*/
 @font-face{
     font-family:VodafoneRegular;
     src:url('vodafone-regular.eot');
@@ -31,12 +8,20 @@
 body{
     font-family:VodafoneRegular,Helvetica Neue,Helvetica !important;
 }
-
-/*Code to make most part of the Form Right To Left*/
+/*Survey container*/
+.kpl_builder.dig-embedded-live.noRepeatBackGroundImg.neb-has-custom-text-color.neb-rating-image-implementation.neb-website-form{
+  width: 842px;
+  height: 712px;
+  padding: 24px 0px 0px 0px;
+  border-radius: 6px;
+  gap: 24px;
+}
+/*Code to make most part of the Form Right To Left
 .rightToLeft {
     direction: rtl !important;
     text-align: right !important;
 }
+*/
 
 /*Taking Cancel and Submit Button to the Left Side.*/
 .rightToLeft div div div .footer-right-buttons{
