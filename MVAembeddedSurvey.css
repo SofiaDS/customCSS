@@ -234,7 +234,7 @@ span#leftEdge,span#rightEdge{
 }
 
 /*Setting Vodafone Logo*/
-#liveForm div div div .pageRepeater div[class*="ng-pristine"]:first-child{
+/*#liveForm div div div .pageRepeater div[class*="ng-pristine"]:first-child{
     padding-top: 80px;
     background-image: url('https://assets.kampyle.com/resources/clients/VF/New_VF_Icon_RGB_RED.png');
     background-repeat: no-repeat;
@@ -259,7 +259,7 @@ span#leftEdge,span#rightEdge{
     background-position-x: inherit;
 }
 
-/*Vodafone logo on Thank you page*/
+Vodafone logo on Thank you page
 .logoPreview{
     padding-top: 100px;
     background-image: url('https://assets.kampyle.com/resources/clients/VF/New_VF_Icon_RGB_RED.png');
@@ -267,14 +267,15 @@ span#leftEdge,span#rightEdge{
     background-size: 80px;
     background-position: center;
 }
-/*For Invitation Page*/
+
+For Invitation Page
 .imageContainer{
     background-image: url('https://assets.kampyle.com/resources/clients/VF/New_VF_Icon_RGB_RED.png');
     background-repeat: no-repeat;
     background-size: 80px;
     background-position: center;
 }
-
+*/
 /* To reduce the space below the text module */
 .pageRepeater .ng-scope:nth-last-child(2) > .neb-label{
     margin-bottom: -20px !important;
