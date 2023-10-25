@@ -276,16 +276,34 @@ For Invitation Page
     background-position: center;
 }
 */
-/* To reduce the space below the text module */
+/* To reduce the space below the text module
 .pageRepeater .ng-scope:nth-last-child(2) > .neb-label{
     margin-bottom: -20px !important;
-}
+}*/
 /*Style title 1*/
 .mvaTitle1{
   font-family: VodafoneRegular;
   font-size: 28px;
   font-weight: 700;
   line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+/*Style title 2*/
+.mvaTitle2{
+  font-family: VodafoneRegular;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+/*Style title 3*/
+.mvaTitle3{
+  font-family: VodafoneRegular;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
 }
