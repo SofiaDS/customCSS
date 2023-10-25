@@ -39,3 +39,7 @@ body{
 .fa.fa-asterisk {
     display: none;
 }
+/*X close button
+.neb-component.neb-web-component.neb-label.kplFormHolder.mvaTitle1::before {
+    content: "X";
+}*/
