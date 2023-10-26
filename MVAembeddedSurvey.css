@@ -1,464 +1,456 @@
-@font-face{font-family:VodafoneLight;src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonelt_ttf.ttf) format('truetype')}
-/* 
-@font-face{font-family:VodafoneBold;src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_eot.eot);src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_eot.eot?#iefix) format('embedded-opentype'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_woff.woff) format('woff'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_ttf.ttf) format('truetype');font-weight:400;font-style:normal}
-@font-face{font-family:VodafoneRgBold;src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_eot.eot);src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_eot.eot?#iefix) format('embedded-opentype'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_woff.woff) format('woff'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_ttf.ttf)format('truetype'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_svg.svg) format('svg');
-font-weight:400;font-style:normal} */
 @font-face{
-    font-family:VodafoneRegular;
-    src:url('vodafone-regular.eot');
-    src:url('vodafone-regular.eot?#iefix') format('embedded-opentype'),
-        url('vodafone-regular.woff') format('woff');
+    font-family:VodafoneLight;
+    src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonelt_ttf.ttf) format('truetype')
+}
+/* @font-face{
+    font-family:VodafoneBold;
+    src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_eot.eot);
+    src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_eot.eot?#iefix) format('embedded-opentype'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_woff.woff) format('woff'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_ttf.ttf) format('truetype');
+    font-weight:400;
     font-style:normal
 }
-body{
-    font-family:VodafoneRegular,Helvetica Neue,Helvetica !important;
-	/*padding-top: 45px !important;*/
-	background-color: #fff !important;
+ @font-face{
+    font-family:VodafoneRgBold;
+    src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_eot.eot);
+    src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_eot.eot?#iefix) format('embedded-opentype'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_woff.woff) format('woff'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_ttf.ttf)format('truetype'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_svg.svg) format('svg');
+     font-weight:400;
+    font-style:normal
 }
-
-.fb-form-object.ng-scope:first-child {
-    padding-top: 5px !important;
+ */
+ @font-face{
+     font-family:VodafoneRegular;
+     src:url('vodafone-regular.eot');
+     src:url('vodafone-regular.eot?#iefix') format('embedded-opentype'), url('vodafone-regular.woff') format('woff');
+     font-style:normal 
+}
+ body{
+     font-family:VodafoneRegular,Helvetica Neue,Helvetica !important;
+    /*padding-top: 45px !important;
+    */
+     background-color: #fff !important;
+}
+ .fb-form-object.ng-scope:first-child {
+     padding-top: 5px !important;
 }
 /*Style title 1*/
-.mvaTitle1{
-font-family: VodafoneRegular;
-font-size: 28px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0px;
-text-align: left;
+ .mvaTitle1{
+     font-family: VodafoneRegular;
+     font-size: 28px;
+     font-weight: 700;
+     line-height: 36px;
+     letter-spacing: 0px;
+     text-align: left;
 }
 /*Style title 2*/
-.mvaTitle2{
-font-family: VodafoneRegular;
-font-size: 18px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0px;
-text-align: left;
+ .mvaTitle2{
+     font-family: VodafoneRegular;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 24px;
+     letter-spacing: 0px;
+     text-align: left;
 }
 /*Style title 3*/
-.mvaTitle3{
-font-family: VodafoneRegular;
-font-size: 18px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0px;
-text-align: left;
+ .mvaTitle3{
+     font-family: VodafoneRegular;
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 24px;
+     letter-spacing: 0px;
+     text-align: left;
 }
 /*flex of typ elements*/
-#liveForm .kpl_builder .kpl-thank-you .kpl-thankYouHolder{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+ #liveForm .kpl_builder .kpl-thank-you .kpl-thankYouHolder{
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
 }
 /*set height of box*/
-.modal-live-form.ng-scope {
-    height: fit-content !important;
+ .modal-live-form.ng-scope {
+     height: fit-content !important;
 }
 /*no padding for submit botton*/
-.kpl_builder .panel-footer .neb-form-footer-buttons {
-    padding:0 !important;
+ .kpl_builder .panel-footer .neb-form-footer-buttons {
+     padding:0 !important;
 }
-.kpl_builder .panel-footer .neb-form-footer-buttons .form-group {
-    padding: 0 !important;
+ .kpl_builder .panel-footer .neb-form-footer-buttons .form-group {
+     padding: 0 !important;
 }
-.form-group{
-    padding: o !important;
+ .form-group{
+     padding: o !important;
 }
-.col-sm-12.neb-form-footer-buttons {
-    padding: 8px !important;
+ .col-sm-12.neb-form-footer-buttons {
+     padding: 8px !important;
 }
-#liveForm .kpl_builder .panel-footer .panel-footer-web div.row {
-    margin-right: 10px !important;
+ #liveForm .kpl_builder .panel-footer .panel-footer-web div.row {
+     margin-right: 10px !important;
 }
 /*#liveForm .kpl_builder .kpl-thank-you {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-} */
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+}
+ */
 /*Code to make most part of the Form Right To Left*/
-.rightToLeft {
-    direction: rtl !important;
-    text-align: right !important;
+ .rightToLeft {
+     direction: rtl !important;
+     text-align: right !important;
 }
-
 /*Taking Cancel and Submit Button to the Left Side.*/
-.rightToLeft div div div .footer-right-buttons{
-    float: left !important;;
+ .rightToLeft div div div .footer-right-buttons{
+     float: left !important;
+    ;
 }
-
 /*To set Submit button as red(E60000)*/
-.submit-btn{
-    background-color: #E60000 !important;
+ .submit-btn{
+     background-color: #E60000 !important;
 }
 /*Changes font of thank you page message*/
-div#thankYouPageText > div > p {
-    font-family: VodafoneLight !important;
-    
+ div#thankYouPageText > div > p {
+     font-family: VodafoneLight !important;
 }
 /*Vertical position of typ icon + text*/
 /* .kpl-thankYouHolder.thankYouPagePreview.ng-scope.no-powered-by{
-    display: flex !important;
-    justify-content: space-around !important;
-} */
+     display: flex !important;
+     justify-content: space-around !important;
+}
+ */
 /*Icon size in typ*/
-img.ng-scope {
-    width: 50px !important;
+ img.ng-scope {
+     width: 50px !important;
 }
 /*position of submit*/
-neb-form-footer.panel-footer {
-    position: relative !important;
+ neb-form-footer.panel-footer {
+     position: relative !important;
 }
 /*position of rating scores*/
-form > span {
-    display: flex;
-    justify-content: space-between;
+ form > span {
+     display: flex;
+     justify-content: space-between;
 }
 /* ng-valid ng-dirty ng-valid-parse > span{
-    display: flex;
-    justify-content: space-between;
-} */
+     display: flex;
+     justify-content: space-between;
+}
+ */
 /*size of scores */
-.neb-rating.numbersSquare .neb-rating-value, .neb-rating.numbersCircle .neb-rating-value {
-    width: 13% !important;
-} 
-.neb-rating-value.ng-scope {
-    margin: 0.5%;
+ .neb-rating.numbersSquare .neb-rating-value, .neb-rating.numbersCircle .neb-rating-value {
+     width: 13% !important;
+}
+ .neb-rating-value.ng-scope {
+     margin: 0.5%;
 }
 /* Below code can swap Submit and Cancel Button Not in use right now*/
-
-/*Changes the position of Submit Button
-.rightToLeft div div div .submit-btn{
-    float: left !important;
-    margin-right: 15px;
-}*/
-
-/*Changes the Position of Cancel Button
-.rightToLeft div div div .cancel-btn{
-    float: right !important;
-    margin-right: 0px;
-}*/
-
+/*Changes the position of Submit Button .rightToLeft div div div .submit-btn{
+     float: left !important;
+     margin-right: 15px;
+}
+*/
+/*Changes the Position of Cancel Button .rightToLeft div div div .cancel-btn{
+     float: right !important;
+     margin-right: 0px;
+}
+*/
 /*This code will Move Screen Capture button to right side.*/
-.rightToLeft div div div .screen-capture{
-    float: right !important;
+ .rightToLeft div div div .screen-capture{
+     float: right !important;
 }
-
 /*This code is to make Medallia Logo Centered*/
-#liveForm .rightToLeft div .kpl-form-footer{
-    text-align: left !important;
-    padding-left: 15px !important;
+ #liveForm .rightToLeft div .kpl-form-footer{
+     text-align: left !important;
+     padding-left: 15px !important;
 }
-
 /*Changes Question Labels Right to Left*/
-#liveForm .rightToLeft .pageRepeater .kplFormHolder .commonLabel {
-    text-align: right !important;
+ #liveForm .rightToLeft .pageRepeater .kplFormHolder .commonLabel {
+     text-align: right !important;
 }
-
 /*To take anchor text to proper place for RTL*/
-.rightToLeft neb-rating .neb-rating .edge-labels #rightEdge{
-    float: left !important;
+ .rightToLeft neb-rating .neb-rating .edge-labels #rightEdge{
+     float: left !important;
 }
-
 /*Reducing the space between all of the elements to make survey size small*/
-.neb-component.neb-web-component.kplFormHolder {
-    margin-bottom: 25px !important;
+ .neb-component.neb-web-component.kplFormHolder {
+     margin-bottom: 25px !important;
 }
-#liveForm .kpl_builder.neb-spacing .fb-form-object.ng-scope:last-child{
-    padding-bottom: 10px !important;
+ #liveForm .kpl_builder.neb-spacing .fb-form-object.ng-scope:last-child{
+     padding-bottom: 10px !important;
 }
-
 /*Setting Dynamic Font size in em*/
-.sans-md-regular, #liveForm, #liveForm .kpl_builder .pageRepeater .form-horizontal .control-label, #liveForm .kpl_builder .kpl-thankYouHolder .form-horizontal .control-label, .fieldSettingsPopover, .pageSettings, .fieldSettingsPopover .form-control, .pageSettings .form-control, .fieldSettingsPopover .form-control .form-control, .pageSettings .form-control .form-control{
-    font-size: 1.08em !important;
+ .sans-md-regular, #liveForm, #liveForm .kpl_builder .pageRepeater .form-horizontal .control-label, #liveForm .kpl_builder .kpl-thankYouHolder .form-horizontal .control-label, .fieldSettingsPopover, .pageSettings, .fieldSettingsPopover .form-control, .pageSettings .form-control, .fieldSettingsPopover .form-control .form-control, .pageSettings .form-control .form-control{
+     font-size: 1.08em !important;
 }
-.btn{
-    font-size: 1em !important;
+ .btn{
+     font-size: 1em !important;
 }
-
 /*Adjusts RadioButton labels for Checkbox on right side*/
-#liveForm .rightToLeft .pageRepeater .kplFormHolder md-radio-group .radio ._md-label {
-    margin-right: 30px;
+ #liveForm .rightToLeft .pageRepeater .kplFormHolder md-radio-group .radio ._md-label {
+     margin-right: 30px;
 }
-
 /*Moves Radio Buttons to the right side*/
-#liveForm .rightToLeft .pageRepeater .kplFormHolder md-radio-group .radio ._md-container{
-    left:inherit !important;
+ #liveForm .rightToLeft .pageRepeater .kplFormHolder md-radio-group .radio ._md-container{
+     left:inherit !important;
 }
-
 /*Moves Checkboxes to Right Side*/
-#liveForm .rightToLeft .pageRepeater .kplFormHolder .checkbox ._md-container{
-    left:inherit !important;
+ #liveForm .rightToLeft .pageRepeater .kplFormHolder .checkbox ._md-container{
+     left:inherit !important;
 }
-
 /*Adjusts CHeckbox labels for Checkbox on right side*/
-#liveForm .rightToLeft .pageRepeater .kplFormHolder .checkbox ._md-label{
-    margin-right: 30px;
+ #liveForm .rightToLeft .pageRepeater .kplFormHolder .checkbox ._md-label{
+     margin-right: 30px;
 }
-
 /*Adjusts the Medallia logo at the button to make sure it stays at the fixed place*/
-#liveForm .kpl_builder .rightToLeft .kpl-form-footer{
-    direction:  ltr !important;
-    margin-right: inherit !important;
-    padding-right: 0px !important;
+ #liveForm .kpl_builder .rightToLeft .kpl-form-footer{
+     direction: ltr !important;
+     margin-right: inherit !important;
+     padding-right: 0px !important;
 }
 /*Centering the Medallia Logo*/
-/*Commented for now
-.live-form-content neb-form-footer .ng-scope .kpl-form-footer{
-    margin-right: unset !important;
-    text-align: center !important;;
-}*/
-
+/*Commented for now .live-form-content neb-form-footer .ng-scope .kpl-form-footer{
+     margin-right: unset !important;
+     text-align: center !important;
+    ;
+}
+*/
 /*Adjusts Error msgs to Right align*/
-#liveForm .rightToLeft div div .pageRepeater div div div[class*="kplFormHolder"] div label{
-    text-align: right !important;
+ #liveForm .rightToLeft div div .pageRepeater div div div[class*="kplFormHolder"] div label{
+     text-align: right !important;
 }
-
-.img-responsive{
-    width: 15%;
-    float: left;
-    margin-bottom: 20px;
+ .img-responsive{
+     width: 15%;
+     float: left;
+     margin-bottom: 20px;
 }
-
-.neb-rating-value.ng-scope{
-  margin: 0.5%;
+ .neb-rating-value.ng-scope{
+     margin: 0.5%;
 }
-.neb-rating.stars .neb-rating-value.ng-scope{
-  margin:0 !important;
+ .neb-rating.stars .neb-rating-value.ng-scope{
+     margin:0 !important;
 }
 /*Vodafone color for Radio Buttons*/
-.neb-content md-radio-group div.radio md-radio-button ._md-on{
-    background-color: #E60000 !important;
+ .neb-content md-radio-group div.radio md-radio-button ._md-on{
+     background-color: #E60000 !important;
 }
 /*Vodafone color for Checkboxes*/
-.neb-content .md-checked ._md-icon{
-    background-color: #E60000 !important;
+ .neb-content .md-checked ._md-icon{
+     background-color: #E60000 !important;
 }
-
 /*Removes background Image from NPS Scale*/
-.neb-rating.numbersSquare label{
-    background-image: none !important;
+ .neb-rating.numbersSquare label{
+     background-image: none !important;
 }
-.neb-rating.numbersCircle label{
-    background-image: none !important;
+ .neb-rating.numbersCircle label{
+     background-image: none !important;
 }
-
 /*Displays Numbers without Background image*/
-.numbersSquare form span span[class*="neb-rating-value"] label .native-display-value-in-rating{
-    display: inline !important;
+ .numbersSquare form span span[class*="neb-rating-value"] label .native-display-value-in-rating{
+     display: inline !important;
 }
-.numbersCircle form span span[class*="neb-rating-value"] label .native-display-value-in-rating{
-    display: inline !important;
+ .numbersCircle form span span[class*="neb-rating-value"] label .native-display-value-in-rating{
+     display: inline !important;
 }
-
 /*Make LTR Scales Responsive*/
-div.neb-rating.numbersSquare, .numbersCircle{
-    width: 100% !important;
+ div.neb-rating.numbersSquare, .numbersCircle{
+     width: 100% !important;
 }
 /* .neb-rating.numbersSquare .neb-rating-value,.neb-rating.numbersCircle .neb-rating-value{
-    width: 8% !important;
-} */
-neb-rating .neb-rating .neb-rating-value label.rating-label{
-    width: 100% !important;
+     width: 8% !important;
+}
+ */
+ neb-rating .neb-rating .neb-rating-value label.rating-label{
+     width: 100% !important;
 }
 /*class for rating number color default state*/
-label.rating-label{
-	color: #000000;
-	font-family: VodafoneRegular;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 24px;
-	letter-spacing: 0px;
+ label.rating-label{
+     color: #000000;
+     font-family: VodafoneRegular;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 24px;
+     letter-spacing: 0px;
 }
 /*class for rating number hoover */
-label.rating-label{
-	
+ label.rating-label{
 }
 /*Show Background Color for NPS Questions*/
-.numbersSquare form span span[class*="neb-rating-value"] label{
-    background-color: #efefef !important;
-    text-align: center;
+ .numbersSquare form span span[class*="neb-rating-value"] label{
+     background-color: #efefef !important;
+     text-align: center;
 }
-.numbersCircle form span span[class*="neb-rating-value"] label{
-    background-color: #efefef !important;
-    text-align: center;
+ .numbersCircle form span span[class*="neb-rating-value"] label{
+     background-color: #efefef !important;
+     text-align: center;
 }
-
 /*Centering Text in NPS Scales*/
-.ng-scope #liveForm div div .pageRepeater div div div[class*="kplFormHolder"] div label[class*="rating-label"]{
-    text-align: center !important;
-    border: 1px solid black;
+ .ng-scope #liveForm div div .pageRepeater div div div[class*="kplFormHolder"] div label[class*="rating-label"]{
+     text-align: center !important;
+     border: 1px solid black;
+     border-radius: 6px;
+     padding: 4px 16px 4px 16px;
+     background: #FFFFFF !important;
 }
-
-.kplFormHolder div.neb-website-nps .numbersCircle label, .kplFormHolder div.neb-website-grading0to10 .numbersSquare label{
-    padding-top: 5px !important;
-    text-align:center !important;
+ .kplFormHolder div.neb-website-nps .numbersCircle label, .kplFormHolder div.neb-website-grading0to10 .numbersSquare label{
+     padding-top: 5px !important;
+     text-align:center !important;
 }
-
 /*Setting Hover Color for NPS Scale*/
-.numbersSquare form span span[class*="neb-rating-value"] label.hover{
-    background-color: #E60000 !important;
-    color: #ffffff !important;
-    font-weight: bold !important;
+ .numbersSquare form span span[class*="neb-rating-value"] label.hover{
+     background-color: #E60000 !important;
+     color: #ffffff !important;
+     font-weight: bold !important;
 }
-.numbersCircle form span span[class*="neb-rating-value"] label.hover{
-    background-color: #E60000 !important;
-    color: #ffffff !important;
-    font-weight: bold !important;
+ .numbersCircle form span span[class*="neb-rating-value"] label.hover{
+     background-color: #E60000 !important;
+     color: #ffffff !important;
+     font-weight: bold !important;
 }
-
 /*Setting Selected Color for NPS*/
-.numbersSquare form span span[class*="neb-rating-value"] label.selected{
-    background-color: #E60000 !important;
-    color: #ffffff !important;
-    font-weight: bold !important;
+ .numbersSquare form span span[class*="neb-rating-value"] label.selected{
+     background-color: #E60000 !important;
+     color: #ffffff !important;
+     font-weight: bold !important;
 }
-.numbersCircle form span span[class*="neb-rating-value"] label.selected{
-    background-color: #E60000 !important;
-    color: #ffffff !important;
-    font-weight: bold !important;
+ .numbersCircle form span span[class*="neb-rating-value"] label.selected{
+     background-color: #E60000 !important;
+     color: #ffffff !important;
+     font-weight: bold !important;
 }
-
 /*Setting backward selection Color*/
-.numbersSquare form span span[class*="neb-rating-value"] label.on{
-    background-color: #E60000 !important;
-    color: #ffffff !important;
-    font-weight: bold !important;
+ .numbersSquare form span span[class*="neb-rating-value"] label.on{
+     background-color: #E60000 !important;
+     color: #ffffff !important;
+     font-weight: bold !important;
 }
-.numbersCircle form span span[class*="neb-rating-value"] label.on{
-    background-color: #E60000 !important;
-    color: #ffffff !important;
-    font-weight: bold !important;
+ .numbersCircle form span span[class*="neb-rating-value"] label.on{
+     background-color: #E60000 !important;
+     color: #ffffff !important;
+     font-weight: bold !important;
 }
-
 /*Will take LTR edge labels Anchor to top*/
-.ng-scope div div neb-rating .neb-rating .edge-labels{
-    margin-top: -55px;
+ .ng-scope div div neb-rating .neb-rating .edge-labels{
+     margin-top: -55px;
 }
-
 /*Changing font size for Anchor text*/
-span#leftEdge,span#rightEdge{
-    font-size: 1.1em !important;
+ span#leftEdge,span#rightEdge{
+     font-size: 1.1em !important;
 }
-
 /* To reduce the space below the text module */
-.pageRepeater .ng-scope:nth-last-child(2) > .neb-label{
-    margin-bottom: -20px !important;
+ .pageRepeater .ng-scope:nth-last-child(2) > .neb-label{
+     margin-bottom: -20px !important;
 }
-
 /*To remove the asterisk*/
-.fa.fa-asterisk {
-    display: none;
+ .fa.fa-asterisk {
+     display: none;
 }
-
 /*To Add Title on right side of Node if First element is text element*/
 /*Disabling it for red Background*/
-.redBackground .pageRepeater .ng-scope:first-child > .neb-label,.noLogo .pageRepeater .ng-scope:first-child > .neb-label{
-  margin-bottom: inherit !important;
-  position: inherit !important;
-  top: inherit;
-  height: inherit !important;
-  font-size: inherit;
-  width: inherit;
-  padding: inherit !important;
-  margin-left: 30px;
+ .redBackground .pageRepeater .ng-scope:first-child > .neb-label,.noLogo .pageRepeater .ng-scope:first-child > .neb-label{
+     margin-bottom: inherit !important;
+     position: inherit !important;
+     top: inherit;
+     height: inherit !important;
+     font-size: inherit;
+     width: inherit;
+     padding: inherit !important;
+     margin-left: 30px;
 }
-.titleText .pageRepeater .ng-scope:first-child > .neb-label{
-  margin-bottom: -87px !important;
-  position: relative !important;
-  top: -85px;
-  height: 90px !important;
-  font-size: 1.6em;
-  width: 70%;
-  padding: 0px !important;
-  margin-left: 100px;
-}
-/*Disabling it for red Background*/
-.redBackground .pageRepeater .ng-scope:first-child > .neb-label > div , .noLogo .pageRepeater .ng-scope:first-child > .neb-label > div{
-    height: inherit !important;
-    margin-top: inherit;
-    margin-bottom: inherit;
-    vertical-align: inherit;
-    display: inherit;
-}
-.titleText .pageRepeater .ng-scope:first-child > .neb-label > div{
-    height: 100% !important;
-    margin-top: auto;
-    margin-bottom: auto;
-    vertical-align: middle;
-    display: table;
+ .titleText .pageRepeater .ng-scope:first-child > .neb-label{
+     margin-bottom: -87px !important;
+     position: relative !important;
+     top: -85px;
+     height: 90px !important;
+     font-size: 1.6em;
+     width: 70%;
+     padding: 0px !important;
+     margin-left: 100px;
 }
 /*Disabling it for red Background*/
-.redBackground .pageRepeater .ng-scope:first-child > .neb-label > div > p,.noLogo .pageRepeater .ng-scope:first-child > .neb-label > div > p{
-    height: inherit;
-    vertical-align: inherit !important;;
-    display: inherit;
-    margin-bottom: inherit !important;
+ .redBackground .pageRepeater .ng-scope:first-child > .neb-label > div , .noLogo .pageRepeater .ng-scope:first-child > .neb-label > div{
+     height: inherit !important;
+     margin-top: inherit;
+     margin-bottom: inherit;
+     vertical-align: inherit;
+     display: inherit;
 }
-.titleText .pageRepeater .ng-scope:first-child > .neb-label > div > p{
-    height: 110%;
-    vertical-align: middle !important;;
-    display: table-cell;
-    margin-bottom: 0px !important;
+ .titleText .pageRepeater .ng-scope:first-child > .neb-label > div{
+     height: 100% !important;
+     margin-top: auto;
+     margin-bottom: auto;
+     vertical-align: middle;
+     display: table;
 }
-.redBackground.rightToLeft .pageRepeater .ng-scope:first-child > .neb-label,.noLogo.rightToLeft .pageRepeater .ng-scope:first-child > .neb-label{
-  margin-bottom: inherit !important;
-  position: inherit !important;
-  top: inherit;
-  height: inherit !important;
-  font-size: inherit;
-  width: inherit;
-  padding: inherit !important;
-  margin-right: 30px !important;
-  margin-left: inherit !important;
+/*Disabling it for red Background*/
+ .redBackground .pageRepeater .ng-scope:first-child > .neb-label > div > p,.noLogo .pageRepeater .ng-scope:first-child > .neb-label > div > p{
+     height: inherit;
+     vertical-align: inherit !important;
+    ;
+     display: inherit;
+     margin-bottom: inherit !important;
 }
-.rightToLeft.titleText .pageRepeater .ng-scope:first-child > .neb-label{
-  margin-bottom: -87px !important;
-  position: relative !important;
-  top: -85px;
-  height: 90px !important;
-  font-size: 1.6em;
-  width: 70%;
-  padding: 0px !important;
-  margin-right: 25px !important;
-  margin-left: 90px !important;
+ .titleText .pageRepeater .ng-scope:first-child > .neb-label > div > p{
+     height: 110%;
+     vertical-align: middle !important;
+    ;
+     display: table-cell;
+     margin-bottom: 0px !important;
 }
-.redBackground.rightToLeft .pageRepeater .ng-scope:first-child > .neb-label > div,.noLogo.rightToLeft .pageRepeater .ng-scope:first-child > .neb-label > div{
-    height: inherit !important;
-    margin-top: inherit;
-    margin-bottom: inherit;
-    vertical-align: inherit;
-    display: inherit;
+ .redBackground.rightToLeft .pageRepeater .ng-scope:first-child > .neb-label,.noLogo.rightToLeft .pageRepeater .ng-scope:first-child > .neb-label{
+     margin-bottom: inherit !important;
+     position: inherit !important;
+     top: inherit;
+     height: inherit !important;
+     font-size: inherit;
+     width: inherit;
+     padding: inherit !important;
+     margin-right: 30px !important;
+     margin-left: inherit !important;
 }
-.rightToLeft.titleText .pageRepeater .ng-scope:first-child > .neb-label > div{
-    height: 100% !important;
-    margin-top: auto;
-    margin-bottom: auto;
-    vertical-align: middle;
-    display: table;
+ .rightToLeft.titleText .pageRepeater .ng-scope:first-child > .neb-label{
+     margin-bottom: -87px !important;
+     position: relative !important;
+     top: -85px;
+     height: 90px !important;
+     font-size: 1.6em;
+     width: 70%;
+     padding: 0px !important;
+     margin-right: 25px !important;
+     margin-left: 90px !important;
 }
-.redBackground.rightToLeft .pageRepeater .ng-scope:first-child > .neb-label > div > p,.noLogo.rightToLeft .pageRepeater .ng-scope:first-child > .neb-label > div > p{
-    height: inherit;
-    vertical-align: inherit !important;;
-    display: inherit;
-    margin-bottom: inherit !important;
+ .redBackground.rightToLeft .pageRepeater .ng-scope:first-child > .neb-label > div,.noLogo.rightToLeft .pageRepeater .ng-scope:first-child > .neb-label > div{
+     height: inherit !important;
+     margin-top: inherit;
+     margin-bottom: inherit;
+     vertical-align: inherit;
+     display: inherit;
 }
-.rightToLeft.titleText .pageRepeater .ng-scope:first-child > .neb-label > div > p{
-    height: 110%;
-    vertical-align: middle !important;;
-    display: table-cell;
-    margin-bottom: 0px !important;
+ .rightToLeft.titleText .pageRepeater .ng-scope:first-child > .neb-label > div{
+     height: 100% !important;
+     margin-top: auto;
+     margin-bottom: auto;
+     vertical-align: middle;
+     display: table;
 }
-
+ .redBackground.rightToLeft .pageRepeater .ng-scope:first-child > .neb-label > div > p,.noLogo.rightToLeft .pageRepeater .ng-scope:first-child > .neb-label > div > p{
+     height: inherit;
+     vertical-align: inherit !important;
+    ;
+     display: inherit;
+     margin-bottom: inherit !important;
+}
+ .rightToLeft.titleText .pageRepeater .ng-scope:first-child > .neb-label > div > p{
+     height: 110%;
+     vertical-align: middle !important;
+    ;
+     display: table-cell;
+     margin-bottom: 0px !important;
+}
 /*Remove close button if noCloseButton is selected*/
-.noCloseButton .thankYouPageButtonPreview{
-    display: none !important;
+ .noCloseButton .thankYouPageButtonPreview{
+     display: none !important;
 }
-.noCloseSurveyButton .cancel-btn{
-  display: none !important;
+ .noCloseSurveyButton .cancel-btn{
+     display: none !important;
 }
-.numbersCircle span span label input,.numbersSquare span span label input{
-   display: none !important;
+ .numbersCircle span span label input,.numbersSquare span span label input{
+     display: none !important;
 }
-
+ 
