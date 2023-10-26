@@ -262,6 +262,10 @@ div.neb-rating.numbersSquare, .numbersCircle{
 neb-rating .neb-rating .neb-rating-value label.rating-label{
     width: 100% !important;
 }
+/*class for rating number color default state*/
+label.rating-label{
+	color: #000000;
+}
 
 /*Show Background Color for NPS Questions*/
 .numbersSquare form span span[class*="neb-rating-value"] label{
