@@ -273,8 +273,8 @@
 }
 /*Show Background Color for NPS Questions*/
  .numbersSquare form span span[class*="neb-rating-value"] label{
-     background-color: #efefef !important;
-     text-align: center;
+     /* background-color: #efefef !important; */
+     /* text-align: center; */
 }
  .numbersCircle form span span[class*="neb-rating-value"] label{
      background-color: #efefef !important;
@@ -286,7 +286,10 @@
      border: 1px solid black;
      border-radius: 6px;
      padding: 4px 16px 4px 16px;
-     background: #FFFFFF !important;
+     background: #FFFFFF;
+       font-weight: 400 !important;
+  font-size:18px;
+  line-height: 24px;
 }
  .kplFormHolder div.neb-website-nps .numbersCircle label, .kplFormHolder div.neb-website-grading0to10 .numbersSquare label{
      padding-top: 5px !important;
@@ -294,12 +297,11 @@
 }
 /*Setting Hover Color for NPS Scale*/
  .numbersSquare form span span[class*="neb-rating-value"] label.hover{
-     background-color: #E60000 !important;
+     background: #E60000 !important;
      color: #ffffff !important;
-     font-weight: bold !important;
 }
  .numbersCircle form span span[class*="neb-rating-value"] label.hover{
-     background-color: #E60000 !important;
+     background-color: #00e692 !important;
      color: #ffffff !important;
      font-weight: bold !important;
 }
