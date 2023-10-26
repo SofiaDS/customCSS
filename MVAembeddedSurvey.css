@@ -33,9 +33,9 @@
     width: 842px;
     height: 712px;
     color: rgb(38, 38, 38);
-    background: #c8c7cc;
-    border-radius: 20px;
-    padding: 2px 109px 64px 109px;
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 24px 0px 0px 0px;
 }
  .fb-form-object.ng-scope:first-child {
      padding-top: 5px !important;
