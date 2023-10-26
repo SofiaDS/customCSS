@@ -307,33 +307,39 @@
  .numbersSquare form span span[class*="neb-rating-value"] label.hover{
      background: #E60000 !important;
      color: #ffffff !important;
+     border:none;
 }
  .numbersCircle form span span[class*="neb-rating-value"] label.hover{
      background-color: #00e692 !important;
      color: #ffffff !important;
      font-weight: bold !important;
+     border:none;
 }
 /*Setting Selected Color for NPS*/
  .numbersSquare form span span[class*="neb-rating-value"] label.selected{
      background-color: #E60000 !important;
      color: #ffffff !important;
      font-weight: bold !important;
+     border:none;
 }
  .numbersCircle form span span[class*="neb-rating-value"] label.selected{
      background-color: #E60000 !important;
      color: #ffffff !important;
      font-weight: bold !important;
+     border:none;
 }
 /*Setting backward selection Color*/
  .numbersSquare form span span[class*="neb-rating-value"] label.on{
      background-color: #E60000 !important;
      color: #ffffff !important;
      font-weight: bold !important;
+     border:none;
 }
  .numbersCircle form span span[class*="neb-rating-value"] label.on{
      background-color: #E60000 !important;
      color: #ffffff !important;
      font-weight: bold !important;
+     border:none;
 }
 /*Will take LTR edge labels Anchor to top*/
  .ng-scope div div neb-rating .neb-rating .edge-labels{
