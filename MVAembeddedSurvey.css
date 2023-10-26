@@ -1,12 +1,23 @@
+@font-face{font-family:VodafoneLight;src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonelt_ttf.ttf) format('truetype')}
+/* 
+@font-face{font-family:VodafoneBold;src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_eot.eot);src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_eot.eot?#iefix) format('embedded-opentype'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_woff.woff) format('woff'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_ttf.ttf) format('truetype');font-weight:400;font-style:normal}
+@font-face{font-family:VodafoneRgBold;src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_eot.eot);src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_eot.eot?#iefix) format('embedded-opentype'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_woff.woff) format('woff'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_ttf.ttf)format('truetype'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_svg.svg) format('svg');
+font-weight:400;font-style:normal} */
 @font-face{
-  font-family:VodafoneRegular;
-  src:url('vodafone-regular.eot');
-  src:url('vodafone-regular.eot?#iefix') format('embedded-opentype');
-  font-style:normal;
+    font-family:VodafoneRegular;
+    src:url('vodafone-regular.eot');
+    src:url('vodafone-regular.eot?#iefix') format('embedded-opentype'),
+        url('vodafone-regular.woff') format('woff');
+    font-style:normal
+}
+body{
+    font-family:VodafoneRegular,Helvetica Neue,Helvetica !important;
+	/*padding-top: 45px !important;*/
+	background-color: #fff !important;
 }
 
-body{
-  font-family:VodafoneRegular,Helvetica Neue,Helvetica !important;
+.fb-form-object.ng-scope:first-child {
+    padding-top: 5px !important;
 }
 /*Style title 1*/
 .mvaTitle1{
@@ -35,201 +46,406 @@ line-height: 24px;
 letter-spacing: 0px;
 text-align: left;
 }
-/*To remove the asterisk*/
-.fa.fa-asterisk {
-  display: none;
+/*flex of typ elements*/
+#liveForm .kpl_builder .kpl-thank-you .kpl-thankYouHolder{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+/*set height of box*/
+.modal-live-form.ng-scope {
+    height: fit-content !important;
+}
+/*no padding for submit botton*/
+.kpl_builder .panel-footer .neb-form-footer-buttons {
+    padding:0 !important;
+}
+.kpl_builder .panel-footer .neb-form-footer-buttons .form-group {
+    padding: 0 !important;
+}
+.form-group{
+    padding: o !important;
+}
+.col-sm-12.neb-form-footer-buttons {
+    padding: 8px !important;
+}
+#liveForm .kpl_builder .panel-footer .panel-footer-web div.row {
+    margin-right: 10px !important;
+}
+/*#liveForm .kpl_builder .kpl-thank-you {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+} */
+/*Code to make most part of the Form Right To Left*/
+.rightToLeft {
+    direction: rtl !important;
+    text-align: right !important;
 }
 
+/*Taking Cancel and Submit Button to the Left Side.*/
+.rightToLeft div div div .footer-right-buttons{
+    float: left !important;;
+}
 
-/******************************************/
-/* main definition of rating scale objects*/
-/******************************************/
-/* background:  changes colour of background behind text */
-/* note that there may be more than one background property set to handle various browsers and capabilities */
-/* color: changes colour of text */
-/* background: changes colour of background: */
-/* height: changes the height of the box or circle but will need the !important property set e.g. height: 29px !important */
-/* widht: changes the width of the box or circle but will need the !important property set e.g. width: 29px !important */
-/* This next section alters background colours for unselected or neutral state */
-/* default colours */
-/* On = 5985f7 client = ??????*/
-/* hover = 4769c5 client = ??????*/
-/* selected = 5985f7 client = ??????*/
+/*To set Submit button as red(E60000)*/
+.submit-btn{
+    background-color: #E60000 !important;
+}
+/*Changes font of thank you page message*/
+div#thankYouPageText > div > p {
+    font-family: VodafoneLight !important;
+    
+}
+/*Vertical position of typ icon + text*/
+/* .kpl-thankYouHolder.thankYouPagePreview.ng-scope.no-powered-by{
+    display: flex !important;
+    justify-content: space-around !important;
+} */
+/*Icon size in typ*/
+img.ng-scope {
+    width: 50px !important;
+}
+/*position of submit*/
+neb-form-footer.panel-footer {
+    position: relative !important;
+}
+/*position of rating scores*/
+form > span {
+    display: flex;
+    justify-content: space-between;
+}
+/* ng-valid ng-dirty ng-valid-parse > span{
+    display: flex;
+    justify-content: space-between;
+} */
+/*size of scores */
+.neb-rating.numbersSquare .neb-rating-value, .neb-rating.numbersCircle .neb-rating-value {
+    width: 13% !important;
+} 
+.neb-rating-value.ng-scope {
+    margin: 0.5%;
+}
+/* Below code can swap Submit and Cancel Button Not in use right now*/
 
-.neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label,
- .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label,
-  .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label {
-  height: 29px; /* adjust height but add !important to activate it or this setting will be ignored */
-  width: 29px; /* adjust width but add !important to activate it or this setting will be ignored */
-  background: #ffffff; /* background colour*/
-  color: #000000; /* text colour unselected */
-  font-weight: 400;
-  border-radius: 100%;
-  font-size: 160px; 
-  }
-  
-  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label span.native-display-value-in-rating, .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label span.native-display-value-in-rating, .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label span.native-display-value-in-rating {
-    display: block;
-    text-align: center; }
-  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label input[type="radio"], .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label input[type="radio"], .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label input[type="radio"] {
-    top: -100%; }
+/*Changes the position of Submit Button
+.rightToLeft div div div .submit-btn{
+    float: left !important;
+    margin-right: 15px;
+}*/
 
-/* The following colour changes are for default colours across all styles but are */
-/* overridden by selectors further down */
-  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label.on, .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label.on, .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.on {
-    background: #24ff00;
-    color: #FFF !important; }
-  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label.hover, .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label.hover, .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.hover {
-    background: #b100ff;
-    color: #FFF !important; }
-  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label.selected, .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label.selected, .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.selected {
-    background: #48ffa4;
-    color: #FFF !important;
-    background: #ff7500;
-    background: radial-gradient(ellipse at center, #5985F7 60%, #c54766 62%);
-    background: -webkit-radial-gradient(center, ellipse cover, #bbf759 60%, #000000 62%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$core-color', endColorstr='$border-color', GradientType=1); }
- 
-  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label:before, .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label:before, .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label:before {
-    display: inline-block;
+/*Changes the Position of Cancel Button
+.rightToLeft div div div .cancel-btn{
+    float: right !important;
+    margin-right: 0px;
+}*/
+
+/*This code will Move Screen Capture button to right side.*/
+.rightToLeft div div div .screen-capture{
+    float: right !important;
+}
+
+/*This code is to make Medallia Logo Centered*/
+#liveForm .rightToLeft div .kpl-form-footer{
+    text-align: left !important;
+    padding-left: 15px !important;
+}
+
+/*Changes Question Labels Right to Left*/
+#liveForm .rightToLeft .pageRepeater .kplFormHolder .commonLabel {
+    text-align: right !important;
+}
+
+/*To take anchor text to proper place for RTL*/
+.rightToLeft neb-rating .neb-rating .edge-labels #rightEdge{
+    float: left !important;
+}
+
+/*Reducing the space between all of the elements to make survey size small*/
+.neb-component.neb-web-component.kplFormHolder {
+    margin-bottom: 25px !important;
+}
+#liveForm .kpl_builder.neb-spacing .fb-form-object.ng-scope:last-child{
+    padding-bottom: 10px !important;
+}
+
+/*Setting Dynamic Font size in em*/
+.sans-md-regular, #liveForm, #liveForm .kpl_builder .pageRepeater .form-horizontal .control-label, #liveForm .kpl_builder .kpl-thankYouHolder .form-horizontal .control-label, .fieldSettingsPopover, .pageSettings, .fieldSettingsPopover .form-control, .pageSettings .form-control, .fieldSettingsPopover .form-control .form-control, .pageSettings .form-control .form-control{
+    font-size: 1.08em !important;
+}
+.btn{
+    font-size: 1em !important;
+}
+
+/*Adjusts RadioButton labels for Checkbox on right side*/
+#liveForm .rightToLeft .pageRepeater .kplFormHolder md-radio-group .radio ._md-label {
+    margin-right: 30px;
+}
+
+/*Moves Radio Buttons to the right side*/
+#liveForm .rightToLeft .pageRepeater .kplFormHolder md-radio-group .radio ._md-container{
+    left:inherit !important;
+}
+
+/*Moves Checkboxes to Right Side*/
+#liveForm .rightToLeft .pageRepeater .kplFormHolder .checkbox ._md-container{
+    left:inherit !important;
+}
+
+/*Adjusts CHeckbox labels for Checkbox on right side*/
+#liveForm .rightToLeft .pageRepeater .kplFormHolder .checkbox ._md-label{
+    margin-right: 30px;
+}
+
+/*Adjusts the Medallia logo at the button to make sure it stays at the fixed place*/
+#liveForm .kpl_builder .rightToLeft .kpl-form-footer{
+    direction:  ltr !important;
+    margin-right: inherit !important;
+    padding-right: 0px !important;
+}
+/*Centering the Medallia Logo*/
+/*Commented for now
+.live-form-content neb-form-footer .ng-scope .kpl-form-footer{
+    margin-right: unset !important;
+    text-align: center !important;;
+}*/
+
+/*Adjusts Error msgs to Right align*/
+#liveForm .rightToLeft div div .pageRepeater div div div[class*="kplFormHolder"] div label{
+    text-align: right !important;
+}
+
+.img-responsive{
+    width: 15%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.neb-rating-value.ng-scope{
+  margin: 0.5%;
+}
+.neb-rating.stars .neb-rating-value.ng-scope{
+  margin:0 !important;
+}
+/*Vodafone color for Radio Buttons*/
+.neb-content md-radio-group div.radio md-radio-button ._md-on{
+    background-color: #E60000 !important;
+}
+/*Vodafone color for Checkboxes*/
+.neb-content .md-checked ._md-icon{
+    background-color: #E60000 !important;
+}
+
+/*Removes background Image from NPS Scale*/
+.neb-rating.numbersSquare label{
+    background-image: none !important;
+}
+.neb-rating.numbersCircle label{
+    background-image: none !important;
+}
+
+/*Displays Numbers without Background image*/
+.numbersSquare form span span[class*="neb-rating-value"] label .native-display-value-in-rating{
+    display: inline !important;
+}
+.numbersCircle form span span[class*="neb-rating-value"] label .native-display-value-in-rating{
+    display: inline !important;
+}
+
+/*Make LTR Scales Responsive*/
+div.neb-rating.numbersSquare, .numbersCircle{
+    width: 100% !important;
+}
+/* .neb-rating.numbersSquare .neb-rating-value,.neb-rating.numbersCircle .neb-rating-value{
+    width: 8% !important;
+} */
+neb-rating .neb-rating .neb-rating-value label.rating-label{
+    width: 100% !important;
+}
+
+/*Show Background Color for NPS Questions*/
+.numbersSquare form span span[class*="neb-rating-value"] label{
+    background-color: #efefef !important;
+    text-align: center;
+}
+.numbersCircle form span span[class*="neb-rating-value"] label{
+    background-color: #efefef !important;
+    text-align: center;
+}
+
+/*Centering Text in NPS Scales*/
+.ng-scope #liveForm div div .pageRepeater div div div[class*="kplFormHolder"] div label[class*="rating-label"]{
+    text-align: center !important;
+}
+
+.kplFormHolder div.neb-website-nps .numbersCircle label, .kplFormHolder div.neb-website-grading0to10 .numbersSquare label{
+    padding-top: 5px !important;
+    text-align:center !important;
+}
+
+/*Setting Hover Color for NPS Scale*/
+.numbersSquare form span span[class*="neb-rating-value"] label.hover{
+    background-color: #E60000 !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+.numbersCircle form span span[class*="neb-rating-value"] label.hover{
+    background-color: #E60000 !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+/*Setting Selected Color for NPS*/
+.numbersSquare form span span[class*="neb-rating-value"] label.selected{
+    background-color: #E60000 !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+.numbersCircle form span span[class*="neb-rating-value"] label.selected{
+    background-color: #E60000 !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+/*Setting backward selection Color*/
+.numbersSquare form span span[class*="neb-rating-value"] label.on{
+    background-color: #E60000 !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+.numbersCircle form span span[class*="neb-rating-value"] label.on{
+    background-color: #E60000 !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+/*Will take LTR edge labels Anchor to top*/
+.ng-scope div div neb-rating .neb-rating .edge-labels{
+    margin-top: -55px;
+}
+
+/*Changing font size for Anchor text*/
+span#leftEdge,span#rightEdge{
+    font-size: 1.1em !important;
+}
+
+/* To reduce the space below the text module */
+.pageRepeater .ng-scope:nth-last-child(2) > .neb-label{
+    margin-bottom: -20px !important;
+}
+
+/*To remove the asterisk*/
+.fa.fa-asterisk {
+    display: none;
+}
+
+/*To Add Title on right side of Node if First element is text element*/
+/*Disabling it for red Background*/
+.redBackground .pageRepeater .ng-scope:first-child > .neb-label,.noLogo .pageRepeater .ng-scope:first-child > .neb-label{
+  margin-bottom: inherit !important;
+  position: inherit !important;
+  top: inherit;
+  height: inherit !important;
+  font-size: inherit;
+  width: inherit;
+  padding: inherit !important;
+  margin-left: 30px;
+}
+.titleText .pageRepeater .ng-scope:first-child > .neb-label{
+  margin-bottom: -87px !important;
+  position: relative !important;
+  top: -85px;
+  height: 90px !important;
+  font-size: 1.6em;
+  width: 70%;
+  padding: 0px !important;
+  margin-left: 100px;
+}
+/*Disabling it for red Background*/
+.redBackground .pageRepeater .ng-scope:first-child > .neb-label > div , .noLogo .pageRepeater .ng-scope:first-child > .neb-label > div{
+    height: inherit !important;
+    margin-top: inherit;
+    margin-bottom: inherit;
+    vertical-align: inherit;
+    display: inherit;
+}
+.titleText .pageRepeater .ng-scope:first-child > .neb-label > div{
+    height: 100% !important;
+    margin-top: auto;
+    margin-bottom: auto;
     vertical-align: middle;
-    height: 20px;
-    padding-left: 10px; }
+    display: table;
+}
+/*Disabling it for red Background*/
+.redBackground .pageRepeater .ng-scope:first-child > .neb-label > div > p,.noLogo .pageRepeater .ng-scope:first-child > .neb-label > div > p{
+    height: inherit;
+    vertical-align: inherit !important;;
+    display: inherit;
+    margin-bottom: inherit !important;
+}
+.titleText .pageRepeater .ng-scope:first-child > .neb-label > div > p{
+    height: 110%;
+    vertical-align: middle !important;;
+    display: table-cell;
+    margin-bottom: 0px !important;
+}
+.redBackground.rightToLeft .pageRepeater .ng-scope:first-child > .neb-label,.noLogo.rightToLeft .pageRepeater .ng-scope:first-child > .neb-label{
+  margin-bottom: inherit !important;
+  position: inherit !important;
+  top: inherit;
+  height: inherit !important;
+  font-size: inherit;
+  width: inherit;
+  padding: inherit !important;
+  margin-right: 30px !important;
+  margin-left: inherit !important;
+}
+.rightToLeft.titleText .pageRepeater .ng-scope:first-child > .neb-label{
+  margin-bottom: -87px !important;
+  position: relative !important;
+  top: -85px;
+  height: 90px !important;
+  font-size: 1.6em;
+  width: 70%;
+  padding: 0px !important;
+  margin-right: 25px !important;
+  margin-left: 90px !important;
+}
+.redBackground.rightToLeft .pageRepeater .ng-scope:first-child > .neb-label > div,.noLogo.rightToLeft .pageRepeater .ng-scope:first-child > .neb-label > div{
+    height: inherit !important;
+    margin-top: inherit;
+    margin-bottom: inherit;
+    vertical-align: inherit;
+    display: inherit;
+}
+.rightToLeft.titleText .pageRepeater .ng-scope:first-child > .neb-label > div{
+    height: 100% !important;
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+    display: table;
+}
+.redBackground.rightToLeft .pageRepeater .ng-scope:first-child > .neb-label > div > p,.noLogo.rightToLeft .pageRepeater .ng-scope:first-child > .neb-label > div > p{
+    height: inherit;
+    vertical-align: inherit !important;;
+    display: inherit;
+    margin-bottom: inherit !important;
+}
+.rightToLeft.titleText .pageRepeater .ng-scope:first-child > .neb-label > div > p{
+    height: 110%;
+    vertical-align: middle !important;;
+    display: table-cell;
+    margin-bottom: 0px !important;
+}
 
-/**************************************************/
-/* These alter the colour of square rating scales */
-/**************************************************/
-/* on & selected usually the same colour */
-/* default colours */
-/* On = 3d64cc client = ??????*/
-/* hover = 2b4aa0 client = ??????*/
-/* selected = 3d64cc client = ??????*/
-/* selected border =          client = ?????? */
-/* set border-radius */
-.neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label {
-  border-radius: 2px; }
-/* set colour for ON */
-  .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.on {
-    background: #ff0000; }
-/* set colour for hover */    
-  .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.hover {
-    background: #ffffff; }
+/*Remove close button if noCloseButton is selected*/
+.noCloseButton .thankYouPageButtonPreview{
+    display: none !important;
+}
+.noCloseSurveyButton .cancel-btn{
+  display: none !important;
+}
+.numbersCircle span span label input,.numbersSquare span span label input{
+   display: none !important;
+}
 
-/* set colour of selected(accumulative) or during selection(singleselect) */
-/* of each border (bottom,left, top, right) and very last attribute is background colour */
-  .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.selected {
-    background: linear-gradient(0deg, #62a02b 6%, #b73737 0%), linear-gradient(90deg, #ffdc0f 6%, transparent 0%), linear-gradient(180deg, #ff0000 6%, transparent 0%), linear-gradient(270deg, #2B4AA0 6%, transparent 0%), #3D64CC;
-    background: -webkit-linear-gradient(90deg, #a02b2b 6%, transparent 0%), linear-gradient(90deg, #4affc8 6%, transparent 0%), linear-gradient(180deg, #2B4AA0 6%, transparent 0%), linear-gradient(270deg, #2B4AA0 6%, transparent 0%), #3D64CC; }
-
-/**************************************************/
-/* The following alter the colour of circular NPS rating scales */
-/**************************************************/
-
-/* background colour of 0-6 ON*/
-.neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.on {
-  background: #B3391C; }
-/* background colour of 7 & 8 ON*/
-  .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.on.seven, .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.on.eight {
-    background: #A3A3A3; }
-/* background colour of 9 & 10 ON*/
-  .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.on.nine, .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.on.ten {
-    background: #6A883E; }
-/* background-color of 0-6 HOVER */
-.neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.hover {
-  background: #902F16; }
-/* background-color of 7 & 8 HOVER */
-  .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.hover.seven, .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.hover.eight {
-    background: #808080; }
-/* background-color of 9 & 10 HOVER */
-  .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.hover.nine, .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.hover.ten {
-    background: #4E642E; }
-
-/* background, border color of 0-6 SELECTED */
-.neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected {
-  background: #B3391C;
-  background: radial-gradient(ellipse at center, #B3391C 60%, #902F16 62%);
-  background: -webkit-radial-gradient(center, ellipse cover, #B3391C 60%, #902F16 62%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$core-color', endColorstr='$border-color', GradientType=1); }
-/* background, border colour of 7 & 8 SELECTED */
- .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected.seven, .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected.eight {
-    background: #A3A3A3;
-    background: radial-gradient(ellipse at center, #A3A3A3 60%, #808080 62%);
-    background: -webkit-radial-gradient(center, ellipse cover, #A3A3A3 60%, #808080 62%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$core-color', endColorstr='$border-color', GradientType=1); }
-/* background, border colour of 9 & 10 SELECTED */
-  .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected.nine, .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected.ten {
-    background: #6A883E;
-    background: radial-gradient(ellipse at center, #6A883E 60%, #4E642E 62%);
-    background: -webkit-radial-gradient(center, ellipse cover, #6A883E 60%, #4E642E 62%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$core-color', endColorstr='$border-color', GradientType=1); }
-
-/*mobile scale settings*/
-/* padding top to shift number down */
-.kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus {
-  margin: 0 1px 6px 0 !important;
-  padding: 0; }
-  .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value label.rating-label, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus label.rating-label, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value label.rating-label, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus label.rating-label {
-    height: 54px; }
-    .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value label.rating-label .native-display-value-in-rating, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus label.rating-label .native-display-value-in-rating, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value label.rating-label .native-display-value-in-rating, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus label.rating-label .native-display-value-in-rating {
-      padding-top: 15px; }
-
-/*border radius of cirlce (default 2px is more square)*/
-.kpl-live-mobile.neb-rating-html-implementation neb-rating .neb-rating.numbersCircle .neb-rating-value label.rating-label {
-  border-radius: 2px; }
-/* background-colour of 0-6 cirle*/
-  .kpl-live-mobile.neb-rating-html-implementation neb-rating .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected {
-    background: linear-gradient(0deg, #902F16 6%, transparent 0%), linear-gradient(90deg, #902F16 6%, transparent 0%), linear-gradient(180deg, #902F16 6%, transparent 0%), linear-gradient(270deg, #902F16 6%, transparent 0%), #B3391C;
-    background: -webkit-linear-gradient(90deg, #902F16 6%, transparent 0%), linear-gradient(90deg, #902F16 6%, transparent 0%), linear-gradient(180deg, #902F16 6%, transparent 0%), linear-gradient(270deg, #902F16 6%, transparent 0%), #B3391C; }
-/*background-color of 7-8 circle*/
-    .kpl-live-mobile.neb-rating-html-implementation neb-rating .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected.seven, .kpl-live-mobile.neb-rating-html-implementation neb-rating .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected.eight {
-      background: linear-gradient(0deg, #808080 6%, transparent 0%), linear-gradient(90deg, #808080 6%, transparent 0%), linear-gradient(180deg, #808080 6%, transparent 0%), linear-gradient(270deg, #808080 6%, transparent 0%), #A3A3A3;
-      background: -webkit-linear-gradient(90deg, #808080 6%, transparent 0%), linear-gradient(90deg, #808080 6%, transparent 0%), linear-gradient(180deg, #808080 6%, transparent 0%), linear-gradient(270deg, #808080 6%, transparent 0%), #A3A3A3; }
-/*background-color of 9-10 circle*/
-    .kpl-live-mobile.neb-rating-html-implementation neb-rating .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected.nine, .kpl-live-mobile.neb-rating-html-implementation neb-rating .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected.ten {
-      background: linear-gradient(0deg, #4E642E 6%, transparent 0%), linear-gradient(90deg, #4E642E 6%, transparent 0%), linear-gradient(180deg, #4E642E 6%, transparent 0%), linear-gradient(270deg, #4E642E 6%, transparent 0%), #6A883E;
-      background: -webkit-linear-gradient(90deg, #4E642E 6%, transparent 0%), linear-gradient(90deg, #4E642E 6%, transparent 0%), linear-gradient(180deg, #4E642E 6%, transparent 0%), linear-gradient(270deg, #4E642E 6%, transparent 0%), #6A883E; }
-
-/* mobile settings for 0-10 rating type*/
-/* border-radius of circle (default 2px is more square)*/
-.kpl-live-mobile.neb-rating-html-implementation neb-rating.grading .neb-rating.numbersCircle .neb-rating-value label.rating-label {
-  border-radius: 2px; }
-/* colour of circle ON */
-  .kpl-live-mobile.neb-rating-html-implementation neb-rating.grading .neb-rating.numbersCircle .neb-rating-value label.rating-label.on {
-    background: #ff0000; }
-/* colour of circle HOVER */
-  .kpl-live-mobile.neb-rating-html-implementation neb-rating.grading .neb-rating.numbersCircle .neb-rating-value label.rating-label.hover {
-    background: #ffffff; }
-/* colour of circle SELECTED each border (bottom,left, top, right) and very last attribute is background colour*/
-  .kpl-live-mobile.neb-rating-html-implementation neb-rating.grading .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected {
-    background: linear-gradient(0deg, #2B4AA0 6%, transparent 0%), linear-gradient(90deg, #2B4AA0 6%, transparent 0%), linear-gradient(180deg, #2B4AA0 6%, transparent 0%), linear-gradient(270deg, #2B4AA0 6%, transparent 0%), #3D64CC;
-    background: -webkit-linear-gradient(90deg, #2B4AA0 6%, transparent 0%), linear-gradient(90deg, #2B4AA0 6%, transparent 0%), linear-gradient(180deg, #2B4AA0 6%, transparent 0%), linear-gradient(270deg, #2B4AA0 6%, transparent 0%), #3D64CC; }
-
-@media screen and (max-width: 305px) {
-  .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus {
-    width: 24px; }
-  .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus {
-    width: 27px; } }
-
-@media screen and (min-width: 306px) and (max-width: 360px) {
-  .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus {
-    width: 8.72%; }
-  .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus {
-    width: 9.5%; } }
-
-@media screen and (min-width: 361px) and (max-width: 481px) {
-  .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus {
-    width: 8.72%; }
-  .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus {
-    width: 9.55%; } }
-
-@media screen and (min-width: 482px) {
-  .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus {
-    width: 40px; }
-  .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus {
-    width: 44px; } }
-
-.kpl-live-mobile.neb-rating-html-implementation .neb-rating.numbersCircle, .kpl-live-mobile.neb-rating-html-implementation .neb-rating.numbersSquare {
-  height: auto; }
-
-.kpl-live-mobile.neb-rating-html-implementation .neb-mobile-web .neb-web-component.neb-grading1to10 {
-  padding-left: 15px !important; }
