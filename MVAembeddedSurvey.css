@@ -29,12 +29,20 @@
     */
      background-color: #fff !important;
 }
+.kpl_builder.dig-embedded-live.noRepeatBackGroundImg.neb-has-custom-text-color.neb-rating-image-implementation.neb-website-form{
+    width: 842px;
+    height: 712px;
+    color: rgb(38, 38, 38);
+    background: #c8c7cc;
+    border-radius: 20px;
+    padding: 2px 109px 64px 109px;
+}
  .fb-form-object.ng-scope:first-child {
      padding-top: 5px !important;
 }
 /*Style title 1*/
  .mvaTitle1{
-     font-family: VodafoneRegular;
+     /*font-family: VodafoneRegular;*/
      font-size: 28px;
      font-weight: 700;
      line-height: 36px;
@@ -43,7 +51,7 @@
 }
 /*Style title 2*/
  .mvaTitle2{
-     font-family: VodafoneRegular;
+/*font-family: VodafoneRegular;*/
      font-size: 18px;
      font-weight: 400;
      line-height: 24px;
@@ -52,7 +60,7 @@
 }
 /*Style title 3*/
  .mvaTitle3{
-     font-family: VodafoneRegular;
+     /*font-family: VodafoneRegular;*/
      font-size: 18px;
      font-weight: 700;
      line-height: 24px;
@@ -262,7 +270,7 @@
 /*class for rating number color default state*/
  label.rating-label{
      color: #000000;
-     font-family: VodafoneRegular;
+     /*font-family: VodafoneRegular;*/
      font-size: 18px;
      font-weight: 400;
      line-height: 24px;
