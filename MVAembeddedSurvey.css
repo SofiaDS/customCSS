@@ -271,7 +271,10 @@ label.rating-label{
 	line-height: 24px;
 	letter-spacing: 0px;
 }
-
+/*class for rating number hoover */
+label.rating-label{
+	
+}
 /*Show Background Color for NPS Questions*/
 .numbersSquare form span span[class*="neb-rating-value"] label{
     background-color: #efefef !important;
@@ -285,6 +288,7 @@ label.rating-label{
 /*Centering Text in NPS Scales*/
 .ng-scope #liveForm div div .pageRepeater div div div[class*="kplFormHolder"] div label[class*="rating-label"]{
     text-align: center !important;
+    border: 1px solid black;
 }
 
 .kplFormHolder div.neb-website-nps .numbersCircle label, .kplFormHolder div.neb-website-grading0to10 .numbersSquare label{
