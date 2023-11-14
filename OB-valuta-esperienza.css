@@ -29,6 +29,11 @@
 body{
     font-family:VodafoneRegular,Helvetica Neue,Helvetica !important;
 }
+/*Code to remove margin from question to rating scale*/
+.neb-component.neb-web-component.neb-label.kplFormHolder.txtBox_q {
+    margin-bottom: -1.5rem !important;
+    margin-top: 2rem !important;
+}
 
 /*Code to make most part of the Form Right To Left*/
 .rightToLeft {
