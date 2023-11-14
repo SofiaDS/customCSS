@@ -262,7 +262,7 @@ span#leftEdge,span#rightEdge{
     background-repeat: no-repeat;
     background-size: 70px;
     background-position-y: 15px;
-    background-position-x: 20px;
+    /*background-position-x: 20px;*/
 }
 #liveForm .redBackground div div .pageRepeater div[class*="ng-pristine"]:first-child{
     padding-top: 80px;
