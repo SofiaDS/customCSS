@@ -7,6 +7,7 @@
 /*modifica layout esterno*/
 .kpl_builder.dig-embedded-live.noRepeatBackGroundImg.kpl-live-mobile.neb-rating-image-implementation.neb-website-form {
   background-color: rgb(242, 242, 242);
+  gap: 16px;
   /* width: 375px; */
   /* height: auto; */
   /* color: rgb(64, 64, 74); */
