@@ -30,6 +30,10 @@
 button.btn.cancel-btn.form-close-btn.ng-binding.ng-scope {
   border: 2px;
 }
+/*modifica margine top text area*/
+.neb-content.neb-wcag {
+  margin-top: 10px;
+}
 .form-outline-wcag {
   outline: 1px dashed #595959 !important;
   outline-offset: 2px !important;
