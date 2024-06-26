@@ -691,8 +691,9 @@ body {
           #liveForm .kpl_builder .panel-footer .btn.back-btn:hover {
             background: #4067cb; }
         #liveForm .kpl_builder .panel-footer .btn.submit-btn {
-          /*modifica bottono btn invia*/
+          /*modifica bottone btn invia*/
           background: #5081ff;
+          line-height: 0px;
          /* background: #5081ff; */
           width: 80px;
           height: 30px;
