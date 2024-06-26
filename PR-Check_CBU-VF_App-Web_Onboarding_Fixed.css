@@ -561,6 +561,9 @@ body {
       border-color: #0D0D0D !important;
       }
     #liveForm .kpl_builder .live-form-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       position: relative;
       height: 100%; }
       #liveForm .kpl_builder .live-form-content .neb-select .neb-content.native-arrow:after {
@@ -728,8 +731,6 @@ body {
       position: relative;
       height: 90px; }
   #liveForm .kpl_builder.dig-embedded-live {
-    /*allineo al centro survey*/
-    display: flex;
     border: none;
     box-shadow: none;
     /* padding: 30px; */
