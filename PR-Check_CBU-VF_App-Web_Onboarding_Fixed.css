@@ -554,7 +554,7 @@ body {
       /*modifica background color text area*/
       background-color: #F2F2F2;
       /*modifica dimension text area*/
-      /* width: 311px; */
+      width: 311px !important;
       height: 112px;
       gap: 0px;
       border-radius: 6px !important;
