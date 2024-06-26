@@ -26,6 +26,10 @@
   margin-right: -22px !important;
   /* gap: 16px; */
 }
+/*modifica btn chiudi*/
+button.btn.cancel-btn.form-close-btn.ng-binding.ng-scope {
+  border: 2px;
+}
 .form-outline-wcag {
   outline: 1px dashed #595959 !important;
   outline-offset: 2px !important;
@@ -645,7 +649,7 @@ body {
       background: none;
       border-top: 0;
       bottom: 0;
-      left: 0;
+      left: 65px;
       position: absolute;
       right: 0;
       padding-left: 15px;
