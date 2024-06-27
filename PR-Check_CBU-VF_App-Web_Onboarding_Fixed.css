@@ -110,7 +110,7 @@ button.btn.cancel-btn.form-close-btn.ng-binding.ng-scope {
   /*modifica container grazie e vector typ*/
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column-reverse;
 }
 
 .neb-relative {
