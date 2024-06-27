@@ -620,9 +620,9 @@ body {
         padding-top: 6px;
         color: #1e1e1e; }
         #thankYouPageText > div > p {
+          font-family:VodafoneRegular,Helvetica Neue,Helvetica !important;
           margin-top: 0;
           margin-bottom: 1rem;
-          font-family: Vodafone;
           font-size: 24px;
           font-weight: 700;
           line-height: 32px;
