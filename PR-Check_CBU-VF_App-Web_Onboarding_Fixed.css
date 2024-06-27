@@ -8,6 +8,10 @@
   font-family:VodafoneLight;
   src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonelt_ttf.ttf) format('truetype')
 }
+@font-face{
+  font-family:VodafoneLight;
+  src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonelt_ttf.ttf) format('truetype')
+}
 /* @font-face{
   font-family:VodafoneBold;
   src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_eot.eot);
@@ -620,7 +624,7 @@ body {
         padding-top: 6px;g
         #thankYouPageText > div > p {
           margin: 0px;
-          font-family: Vodafone;
+          font-family: VodafoneLight;
           font-weight: 700;
           font-size: 1.5rem;
           line-height: 1.35;
