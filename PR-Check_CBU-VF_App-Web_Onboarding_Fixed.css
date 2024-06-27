@@ -1896,7 +1896,10 @@ neb-rating .neb-rating .edge-labels {
     overflow-x: hidden; }
     #liveForm .kpl_builder .kpl-thank-you .kpl-thankYouHolder.no-powered-by .thankYouPageLogoPreviewText {
       padding: 0px;
-      line-height: 24px; }
+      line-height: 32px;
+      font-size: 24px;
+      font-weight: 700;
+     }
     #liveForm .kpl_builder .kpl-thank-you .kpl-thankYouHolder.no-powered-by .thankYouPageLogoPreviewImage {
       margin-bottom: 10px; }
     #liveForm .kpl_builder .kpl-thank-you .kpl-thankYouHolder img {
