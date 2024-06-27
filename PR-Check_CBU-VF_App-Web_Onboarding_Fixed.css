@@ -620,12 +620,20 @@ body {
         padding-top: 6px;
         color: #1e1e1e; }
         #thankYouPageText > div > p {
-          font-family:Vodafone !important;
+          margin: 0px;
+          font-family: Vodafone;
+          font-weight: 700;
+          font-size: 1.5rem;
+          line-height: 1.35;
+          display: block;
+          text-align: center;
+          width: 100%;
+          /*font-family:Vodafone !important;
           margin-top: 0;
           margin-bottom: 1rem;
           font-size: 24px;
           font-weight: 700;
-          line-height: 32px;
+          line-height: 32px;*/
           /* text-align: center;*/
         }
         #liveForm .kpl_builder .live-form-content .neb-select select::-ms-expand {
