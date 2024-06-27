@@ -617,8 +617,7 @@ body {
         padding-left: 4px;
         padding-right: 12px;
         padding-bottom: 6px;
-        padding-top: 6px;
-        color: #1e1e1e; }
+        padding-top: 6px;g
         #thankYouPageText > div > p {
           margin: 0px;
           font-family: Vodafone;
@@ -1902,7 +1901,7 @@ neb-rating .neb-rating .edge-labels {
     #liveForm .kpl_builder .kpl-thank-you .kpl-thankYouHolder .thankYouPageLogoPreviewImage {
       margin-right: auto;
       margin-left: auto;
-      margin-top: 0px !important;
+      margin-top: 1rem;
       text-align: center; }
       #liveForm .kpl_builder .kpl-thank-you .kpl-thankYouHolder .thankYouPageLogoPreviewImage img {
         max-height: 78px;
