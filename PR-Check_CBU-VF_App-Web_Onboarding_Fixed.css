@@ -560,7 +560,7 @@ body {
     #liveForm .kpl_builder input.form-control {
       height: 34px;
       /*modifica background color text area*/
-      background-color: #F2F2F2;
+      background-color: #F2F2F2 !important;
       /*modifica dimension text area*/
       width: 288px !important;
       height: 112px;
