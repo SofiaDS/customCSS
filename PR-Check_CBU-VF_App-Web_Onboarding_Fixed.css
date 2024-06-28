@@ -137,9 +137,9 @@ button.btn.cancel-btn.form-close-btn.ng-binding.ng-scope {
 
 .padding-right-15.padding-left-15 {
   /*modifica container grazie e vector typ*/
-  display: flex;
-  align-items: center;
-  flex-direction: column-reverse;
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: column-reverse !important;
 }
 
 .neb-relative {
