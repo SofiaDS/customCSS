@@ -684,11 +684,10 @@ body {
           max-height: 100px;
           max-width: 300px; }
         #liveForm .kpl_builder .modal-live-form .kpl-thank-you .kpl-thankYouHolder .thankYouPageLogoPreviewImage {
-          margin-top: 30px;
-          margin-right: auto;
-          margin-left: auto;
+          margin:0px !important;
           text-align: center; }
           #liveForm .kpl_builder .modal-live-form .kpl-thank-you .kpl-thankYouHolder .thankYouPageLogoPreviewImage img {
+            margin:0px !important;
             max-height: 78px;
             max-width: 198px; }
         #liveForm .kpl_builder .modal-live-form .kpl-thank-you .kpl-thankYouHolder .thankYouPageLogoPreviewText {
@@ -1923,8 +1922,10 @@ neb-rating .neb-rating .edge-labels {
       max-height: 100px;
       max-width: 300px; }
     #liveForm .kpl_builder .kpl-thank-you .kpl-thankYouHolder .thankYouPageLogoPreviewImage {
+      margin:0px !important;
       text-align: center; }
       #liveForm .kpl_builder .kpl-thank-you .kpl-thankYouHolder .thankYouPageLogoPreviewImage img {
+        margin:0px !important;
         max-height: 78px;
         max-width: 198px; }
     #liveForm .kpl_builder .kpl-thank-you .kpl-thankYouHolder .thankYouPageLogoPreviewText {
