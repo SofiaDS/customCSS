@@ -67,6 +67,13 @@ button.btn.cancel-btn.form-close-btn.ng-binding.ng-scope {
 i.fa.fa-asterisk.required-sign{
   display: none !important;
 }
+/*modifica colore * required per label*/
+.has-error .control-label, .has-error .form-control, .has-error .error {
+  color: #e60000 !important;
+}
+.has-error .control-label, .has-error .form-control, .has-error .error {
+  color: #e60000 !important;
+}
 .form-outline-wcag {
   outline: 1px dashed #595959 !important;
   outline-offset: 2px !important;
