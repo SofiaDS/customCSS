@@ -159,6 +159,10 @@ button {
  /*modifica padding parent element*/
   padding:16px, 16px, 20px, 16px;
 }
+/*width parent el survey*/
+.kpl_builder.dig-embedded-live.noRepeatBackGroundImg.neb-rating-image-implementation.neb-website-form{
+  width: 311px !important;
+}
 body {
   font-family: VodafoneRegular !important;
   background: transparent;
