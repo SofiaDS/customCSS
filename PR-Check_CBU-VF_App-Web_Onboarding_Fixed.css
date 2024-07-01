@@ -171,3 +171,9 @@ body {
 .col-sm-12.neb-form-footer-buttons {
   margin-left: 2.5rem !important;
 }
+/*modifica x mobile*/
+@media only screen and (max-width: 600px) {
+  .panel-footer-web {
+    margin-left: -3.5rem !important;
+  }
+}
