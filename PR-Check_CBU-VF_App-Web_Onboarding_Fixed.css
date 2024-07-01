@@ -1899,6 +1899,12 @@ neb-rating .neb-rating .edge-labels {
       line-height: 32px !important;
       font-size: 24px !important;
       font-weight: 700 !important;
+      font-family: VodafoneRg, -apple-system,
+      Segoe UI, Roboto, Ubuntu,
+      Cantarell, Noto Sans, sans-serif,
+      Apple Color Emoji, Segoe UI
+      Emoji, Segoe UI Symbol, Noto
+      Color Emoji !important;
      }
     #liveForm .kpl_builder .kpl-thank-you .kpl-thankYouHolder.no-powered-by .thankYouPageLogoPreviewImage {
       margin-bottom: 10px; }
