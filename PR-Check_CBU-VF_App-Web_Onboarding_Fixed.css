@@ -4,117 +4,33 @@
 /**
 * example: @include rotate-element(45deg);
 */
-@font-face {
-  font-family: Vodafone;
-  font-weight: 300;
-  font-display: block;
-  src: url(/_next/static/media/VodafoneLt-Regular.50e90eca.woff2) format("woff2")
-}
-
-@font-face {
-  font-family: Vodafone;
-  font-weight: 400;
-  font-display: block;
-  src: url(/_next/static/media/VodafoneRg-Regular.1208ef49.woff2) format("woff2")
-}
-
-@font-face {
-  font-family: Vodafone;
-  font-weight: 700;
-  font-display: block;
-  src: url(/_next/static/media/VodafoneRg-Bold.368e49c5.woff2) format("woff2")
-}
-
-@font-face {
-  font-family: Vodafone;
-  font-weight: 800;
-  font-display: block;
-  src: url(/_next/static/media/VodafoneExB-Regular.7362f3f2.woff2) format("woff2")
-}
-
-@font-face {
-  font-family: VodafoneLt;
-  font-weight: 400;
-  font-display: block;
-  src: url(/_next/static/media/VodafoneLt-Regular.50e90eca.woff2) format("woff2")
-}
-
-@font-face {
-  font-family: VodafoneRg;
-  font-weight: 400;
-  font-display: block;
-  src: url(/_next/static/media/VodafoneRg-Regular.1208ef49.woff2) format("woff2")
-}
-
-@font-face {
-  font-family: VodafoneRg;
-  font-weight: 700;
-  font-display: block;
-  src: url(/_next/static/media/VodafoneRg-Bold.368e49c5.woff2) format("woff2")
-}
-
-@font-face {
-  font-family: VodafoneExB;
-  font-weight: 400;
-  font-display: block;
-  src: url(/_next/static/media/VodafoneExB-Regular.7362f3f2.woff2) format("woff2")
-}
-
-@font-face {
-  font-family: Vodafone Lt;
-  font-weight: 400;
-  font-display: block;
-  src: url(/_next/static/media/VodafoneLt-Regular.50e90eca.woff2) format("woff2")
-}
-
-@font-face {
-  font-family: Vodafone Rg;
-  font-weight: 400;
-  font-display: block;
-  src: url(/_next/static/media/VodafoneRg-Regular.1208ef49.woff2) format("woff2")
-}
-
-@font-face {
-  font-family: Vodafone Rg;
-  font-weight: 700;
-  font-display: block;
-  src: url(/_next/static/media/VodafoneRg-Bold.368e49c5.woff2) format("woff2")
-}
-
-@font-face {
-  font-family: Vodafone ExB;
-  font-weight: 400;
-  font-display: block;
-  src: url(/_next/static/media/VodafoneExB-Regular.7362f3f2.woff2) format("woff2")
-}
 @font-face{
   font-family:VodafoneLight;
   src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonelt_ttf.ttf) format('truetype')
 }
 @font-face{
-  font-family:VodafoneLight;
-  src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonelt_ttf.ttf) format('truetype')
-}
-/* @font-face{
   font-family:VodafoneBold;
   src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_eot.eot);
-  src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_eot.eot?#iefix) format('embedded-opentype'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_woff.woff) format('woff'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_ttf.ttf) format('truetype');
-  font-weight:400;
-  font-style:normal
+  src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_eot.eot?#iefix) format('embedded-opentype'),
+      url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafoneexbd_ttf.ttf) format('truetype');
+      font-weight:400;
+      font-style:normal
 }
 @font-face{
   font-family:VodafoneRgBold;
   src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_eot.eot);
-  src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_eot.eot?#iefix) format('embedded-opentype'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_woff.woff) format('woff'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_ttf.ttf)format('truetype'),url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_svg.svg) format('svg');
-   font-weight:400;
-  font-style:normal
+  src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_eot.eot?#iefix) format('embedded-opentype'),
+      url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_ttf.ttf)format('truetype'),
+      url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonergbd_svg.svg) format('svg');
+      font-weight:400;
+      font-style:normal
 }
-*/
+
 @font-face{
-   font-family:VodafoneRegular;
-   src:url('vodafone-regular.eot');
-   src:url('vodafone-regular.eot?#iefix') format('embedded-opentype'), url('vodafone-regular.woff') format('woff');
-   font-style:normal 
+    font-family:VodafoneRegular;
+    src:url('vodafone-regular.eot');
+    src:url('vodafone-regular.eot?#iefix') format('embedded-opentype');
+    font-style:normal;
 }
 /*modifica layout esterno*/
 .kpl_builder.dig-embedded-live.noRepeatBackGroundImg.kpl-live-mobile.neb-rating-image-implementation.neb-website-form {
