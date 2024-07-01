@@ -73,6 +73,7 @@ i.fa.fa-asterisk.required-sign{
 /*modifica margin grazie typ*/
 div#thankYouPageText{
   margin-bottom: -2rem !important;
+  font-family: VodafoneRgBold !important;
 }
 .has-error .control-label, .has-error .form-control, .has-error .error {
   color: #e60000 !important;
@@ -174,8 +175,7 @@ div#thankYouPageText{
 
 body {
   background: transparent;
-  overflow: hidden;
-  font-family: VodafoneRgBold !important; }
+  overflow: hidden; }
 
 .kpl_comp .checkbox.clip-check label {
   white-space: normal; }
