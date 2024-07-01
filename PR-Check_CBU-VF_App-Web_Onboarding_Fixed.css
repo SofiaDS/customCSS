@@ -87,6 +87,10 @@ div#thankYouPageText{
   margin-bottom: -2rem !important;
   font-family: VodafoneRgBold !important;
 }
+/*modifica button*/
+button {
+  font-family: VodafoneRegular !important;
+}
 .has-error .control-label, .has-error .form-control, .has-error .error {
   color: #e60000 !important;
 }
