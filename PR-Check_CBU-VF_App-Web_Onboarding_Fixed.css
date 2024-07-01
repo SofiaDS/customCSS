@@ -258,7 +258,8 @@ div#thankYouPageText{
 
 body {
   background: transparent;
-  overflow: hidden; }
+  overflow: hidden;
+  font-family: Vodafone !important; }
 
 .kpl_comp .checkbox.clip-check label {
   white-space: normal; }
