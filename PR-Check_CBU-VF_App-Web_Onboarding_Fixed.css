@@ -25,13 +25,21 @@
       font-weight:400;
       font-style:normal
 }
-
 @font-face{
+  font-family:VodafoneRegular;
+  src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonerg_eot.eot);
+  src:url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonerg_eot.eot?#iefix) format('embedded-opentype'),
+      url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonerg_ttf.ttf)format('truetype'),
+      url(//assets.vodafone.co.uk/cs/groups/public/documents/fonts/vodafonerg_svg.svg) format('svg');
+      font-weight:400;
+      font-style:normal
+}
+/* @font-face{
     font-family:VodafoneRegular;
     src:url('vodafone-regular.eot');
     src:url('vodafone-regular.eot?#iefix') format('embedded-opentype');
     font-style:normal;
-}
+} */
 /*modifica layout esterno*/
 .kpl_builder.dig-embedded-live.noRepeatBackGroundImg.kpl-live-mobile.neb-rating-image-implementation.neb-website-form {
   background-color: rgb(242, 242, 242);
@@ -174,6 +182,7 @@ div#thankYouPageText{
   font-family: themify; }
 
 body {
+  font-family: VodafoneRegular !important;
   background: transparent;
   overflow: hidden; }
 
