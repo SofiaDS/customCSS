@@ -63,6 +63,10 @@ button.btn.cancel-btn.form-close-btn.ng-binding.ng-scope {
 .neb-content.neb-wcag {
   margin-top: 10px;
 }
+/*modifica * required */
+i.fa.fa-asterisk.required-sign{
+  display: none !important;
+}
 .form-outline-wcag {
   outline: 1px dashed #595959 !important;
   outline-offset: 2px !important;
