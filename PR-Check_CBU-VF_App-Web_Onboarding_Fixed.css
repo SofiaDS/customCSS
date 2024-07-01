@@ -40,6 +40,20 @@
     src:url('vodafone-regular.eot?#iefix') format('embedded-opentype');
     font-style:normal;
 } */
+textarea {
+  /*style ext*/
+    resize: none;
+    font-family: VodafoneRegular !important;
+    border-color: #000000 !important;
+    border-radius: 6px !important;
+    background-color: #f2f2f2 !important;
+  } 
+/* .PR-Check_Negative-Feedback-Verbatim > .neb-content .neb-wcag > textarea{
+    font-family: VodafoneRegular !important;
+    border-color: #000000 !important;
+    border-radius: 6px !important;
+    background-color: #f2f2f2 !important;
+  } */
 /*modifica layout esterno*/
 .kpl_builder.dig-embedded-live.noRepeatBackGroundImg.kpl-live-mobile.neb-rating-image-implementation.neb-website-form {
   background-color: rgb(242, 242, 242);
@@ -941,23 +955,6 @@ body {
 .noRepeatBackGroundImg {
   background-repeat: no-repeat !important; }
 
-textarea {
-  /*style ext*/
-    resize: none;
-    font-family: VodafoneRegular !important;
-    border-color: #000000 !important;
-    border-radius: 6px !important;
-    background-color: #f2f2f2 !important;
-  } 
-.PR-Check_Negative-Feedback-Verbatim > .neb-content .neb-wcag > textarea{
-    font-family: VodafoneRegular !important;
-    border-color: #000000 !important;
-    border-radius: 6px !important;
-    background-color: #f2f2f2 !important;
-  }
-.neb-content.neb-wcag{
-
-  }
 .fuadStyle {
   background-color: red; }
 
