@@ -168,3 +168,6 @@ body {
   background: transparent;
   overflow: hidden;
 }
+.col-sm-12.neb-form-footer-buttons {
+  margin-left: 2.5rem !important;
+}
