@@ -1907,7 +1907,7 @@ neb-rating .neb-rating .edge-labels {
       Color Emoji !important;
      }
     #liveForm .kpl_builder .kpl-thank-you .kpl-thankYouHolder.no-powered-by .thankYouPageLogoPreviewImage {
-      margin-bottom: 10px; }
+      margin: 0px !important; }
     #liveForm .kpl_builder .kpl-thank-you .kpl-thankYouHolder img {
       max-height: 100px;
       max-width: 300px; }
