@@ -634,11 +634,9 @@ body {
         /*modifica background color text area*/
         background-color: #F2F2F2 !important;
         /*modifica dimension text area*/
-        width: 288px !important;
-        height: 112px;
+        width: 16rem !important;
+        height: 6rem;
         gap: 0px;
-        border-radius: 6px !important;
-        border-color: #0D0D0D !important;
       }
     #liveForm .kpl_builder .live-form-content {
       display: flex;
