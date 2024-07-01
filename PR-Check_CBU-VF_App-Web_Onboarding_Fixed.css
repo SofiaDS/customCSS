@@ -944,18 +944,18 @@ body {
   background-repeat: no-repeat !important; }
 
 textarea {
-  resize: none;
-  font-family: VodafoneRegular !important;
-  border-color: #000000 !important;
-  border-radius: 6px !important;
-  background-color: #f2f2f2 !important;
-}
-.PR-Check_Negative-Feedback-Verbatim{
-  font-family: VodafoneRegular !important;
-  border-color: #000000 !important;
-  border-radius: 6px !important;
-  background-color: #f2f2f2 !important;
-}
+    resize: none;
+    font-family: VodafoneRegular !important;
+    border-color: #000000 !important;
+    border-radius: 6px !important;
+    background-color: #f2f2f2 !important;
+  }
+.PR-Check_Negative-Feedback-Verbatim > div > textarea{
+    font-family: VodafoneRegular !important;
+    border-color: #000000 !important;
+    border-radius: 6px !important;
+    background-color: #f2f2f2 !important;
+  }
 
 .fuadStyle {
   background-color: red; }
