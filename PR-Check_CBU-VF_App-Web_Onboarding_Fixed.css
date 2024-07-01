@@ -71,6 +71,10 @@ i.fa.fa-asterisk.required-sign{
 .has-error .control-label, .has-error .form-control, .has-error .error {
   color: #e60000 !important;
 }
+/*modifica margin grazie typ*/
+div#thankYouPageText{
+  margin-bottom: -2rem !important;
+}
 .has-error .control-label, .has-error .form-control, .has-error .error {
   color: #e60000 !important;
 }
