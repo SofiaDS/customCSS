@@ -70,6 +70,9 @@ button.btn.cancel-btn.form-close-btn.ng-binding.ng-scope {
 .neb-content.neb-wcag {
   margin-top: 10px;
 }
+.PR-Check_Negative-Feedback-Verbatim{
+  margin-top: 10px;
+}
 /*modifica * required */
 i.fa.fa-asterisk.required-sign{
   display: none !important;
@@ -622,6 +625,16 @@ body {
       border-radius: 6px !important;
       border-color: #0D0D0D !important;
       }
+      .PR-Check_Negative-Feedback-Verbatim{
+        /*modifica background color text area*/
+        background-color: #F2F2F2 !important;
+        /*modifica dimension text area*/
+        width: 288px !important;
+        height: 112px;
+        gap: 0px;
+        border-radius: 6px !important;
+        border-color: #0D0D0D !important;
+      }
     #liveForm .kpl_builder .live-form-content {
       display: flex;
       flex-direction: column;
@@ -928,7 +941,9 @@ body {
 textarea {
   resize: none;
   font-family: "Open Sans",sans-serif; }
-
+.PR-Check_Negative-Feedback-Verbatim{
+  font-family: VodafoneRegular !important;
+} 
 .fuadStyle {
   background-color: red; }
 
@@ -1445,8 +1460,9 @@ textarea {
 
 textarea, select, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"],
 input[type="search"], input[type="tel"], input[type="color"] {
-  border: 1px solid #cccccc;
-  border-color: #cccccc; }
+  border: 1px solid #000000 !important;
+  border-color: #000000 !important;
+  border-radius: 6px !important; }
 
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
