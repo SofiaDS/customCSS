@@ -176,4 +176,7 @@ body {
   .panel-footer-web {
     margin-left: -3.5rem !important;
   }
+  .live-form-content.neb-mobile-web {
+    overflow: hidden;
+  }
 }
