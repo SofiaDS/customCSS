@@ -152,6 +152,7 @@ button {
   font-weight: 400;
   line-height: 18px;
   text-align: center;
+  left: -0.6rem;
 }
 #liveForm .kpl_builder.kpl-live-mobile {
   border: none;
